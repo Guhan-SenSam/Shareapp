@@ -1,0 +1,106 @@
+
+
+<SenderButton>:
+    opacity: 0
+    size_hint: 0.40, 0.25
+    pos_hint:{'center_x':.5, "center_y":.60}
+    radius: 50,50,50,50
+    md_bg_color:1,1,1,1
+    elevation: 13
+
+    FloatLayout:
+        id: layout
+        Label:
+            text:"Send"
+            pos_hint:{'center_x':.5, "center_y":.15}
+            color:0,0,0,1
+            font_name:'Roboto-Bold'
+            font_size: '15sp'
+
+        MDIconButton:
+            id: upload_icon
+            icon:'upload'
+            user_font_size:'70sp'
+            pos_hint:{'center_x':.5, "center_y":.5}
+            theme_text_color: "Custom"
+            text_color:30/255,25/255,65/255,1
+
+
+<ReceiverButton>:
+    opacity: 0
+    size_hint: 0.40, 0.25
+    pos_hint:{'center_x':.5, "center_y":.30}
+    radius: 50,50,50,50
+    md_bg_color:1,1,1,1
+    elevation: 13
+
+    FloatLayout:
+        id: layout
+        Label:
+            text:"Recieve"
+            pos_hint:{'center_x':.5, "center_y":.15}
+            color:0,0,0,1
+            font_name:'Roboto-Bold'
+            font_size: '15sp'
+
+        MDIconButton:
+            icon:'download'
+            user_font_size:'70sp'
+            pos_hint:{'center_x':.5, "center_y":.5}
+            theme_text_color: "Custom"
+            text_color:30/255,25/255,65/255,1
+
+<SettingsButton>:
+    opacity:0
+    icon:'settings-outline'
+    pos_hint:{'center_x':.1, 'center_y':.95}
+    user_font_size:'25sp'
+    theme_text_color: "Custom"
+    text_color: 1,1,1,1
+    on_release:self.grow()
+
+<SelectButton>:
+    pos:Window.center
+    elevation: 13
+    md_bg_color: 1, 0, 1, 1
+
+
+
+
+<MainScreen>:
+    canvas:
+        Color:
+            rgba:25/255,40/255,65/255,1
+        Rectangle:
+            size:self.size
+            pos:self.pos
+    FloatLayout:
+        id:container
+        size:self.size
+        pos:self.pos
+        BoxLayout:
+            size: '200dp','200dp'
+            canvas.before:
+                PushMatrix
+                Rotate:
+                    angle: root.angle
+                    axis: 0,0,1
+                    origin: root.center
+            canvas.after:
+                PopMatrix
+            pos_hint:{'center_x':1, 'center_y':.55}
+            MDCard:
+                size: '600dp','900dp'
+                size_hint_x:None
+                size_hint_y:None
+                radius:20,20,20,20
+                elevation:16
+                md_bg_color: 25/225,60/225,65/225,1
+
+        MDCard:
+            pos_hint: {'center_x':.1, 'center_y':.98}
+            size: '50dp','100dp'
+            size_hint: None, None
+            radius:20,20,20,20
+            elevation:10
+            md_bg_color: 30/255,25/255,65/255,1
