@@ -1,12 +1,13 @@
 
+<BackgroundCard>:
 
 <SenderButton>:
     opacity: 0
     size_hint: 0.40, 0.25
     pos_hint:{'center_x':.5, "center_y":.60}
     radius: 50,50,50,50
-    md_bg_color:1,1,1,1
-    elevation: 13
+    md_bg_color:0.1,0.1,0.1,1
+    elevation: 12
 
     FloatLayout:
         id: layout
@@ -23,16 +24,17 @@
             user_font_size:'70sp'
             pos_hint:{'center_x':.5, "center_y":.5}
             theme_text_color: "Custom"
-            text_color:30/255,25/255,65/255,1
+            text_color:25/225,60/225,65/225,1
 
 
 <ReceiverButton>:
+
     opacity: 0
     size_hint: 0.40, 0.25
     pos_hint:{'center_x':.5, "center_y":.30}
     radius: 50,50,50,50
     md_bg_color:1,1,1,1
-    elevation: 13
+    elevation: 12
 
     FloatLayout:
         id: layout
@@ -42,6 +44,7 @@
             color:0,0,0,1
             font_name:'Roboto-Bold'
             font_size: '15sp'
+            texture:app.gradient
 
         MDIconButton:
             icon:'download'
@@ -60,7 +63,6 @@
     on_release:self.grow()
 
 <SelectButton>:
-    pos:Window.center
     elevation: 13
     md_bg_color: 1, 0, 1, 1
 
@@ -68,10 +70,11 @@
 
 
 <MainScreen>:
+
     canvas:
         Color:
-            rgba:25/255,40/255,65/255,1
         Rectangle:
+            texture:app.gradient
             size:self.size
             pos:self.pos
     FloatLayout:
@@ -79,7 +82,6 @@
         size:self.size
         pos:self.pos
         BoxLayout:
-            size: '200dp','200dp'
             canvas.before:
                 PushMatrix
                 Rotate:
@@ -89,18 +91,11 @@
             canvas.after:
                 PopMatrix
             pos_hint:{'center_x':1, 'center_y':.55}
-            MDCard:
+            BackgroundCard:
+                id:b_card
                 size: '600dp','900dp'
                 size_hint_x:None
                 size_hint_y:None
                 radius:20,20,20,20
                 elevation:16
-                md_bg_color: 25/225,60/225,65/225,1
-
-        MDCard:
-            pos_hint: {'center_x':.1, 'center_y':.98}
-            size: '50dp','100dp'
-            size_hint: None, None
-            radius:20,20,20,20
-            elevation:10
-            md_bg_color: 30/255,25/255,65/255,1
+                md_bg_color: 3/255,128/255,108/255, 1

@@ -10,6 +10,8 @@ from kivy.core.window import Window
 from kivy.uix.screenmanager import Screen, ScreenManager
 from kivy.animation import Animation
 from kivy.properties import NumericProperty
+from kivy.graphics.texture import Texture
+import kivy.metrics
 
 from functools import partial
 
@@ -39,8 +41,7 @@ class MenuScreen():
 
     def Receiving_screen_str_anim(self, caller, *args, identifier):
         Mainscreenvar = sm.get_screen('MainScreen')
-        anim1 = Animation(duration = .1)
-        anim1 += Animation(size_hint = (0.38,0.22), duration = .1, t='in_out_circ')
+        anim1 = Animation(size_hint = (0.38,0.22), duration = .1, t='in_out_circ')
         anim1 += Animation(pos_hint = {'center_x':.5, "center_y":-1}, duration = .3, t='in_out_circ')
 
         anim2 = Animation(size_hint = (0.38,0.22), duration = .1, t='in_out_circ')
@@ -58,19 +59,18 @@ class MenuScreen():
             anim1.start(caller)
             anim3.start(caller.parent.children[0])
             anim4.start(Mainscreenvar)
-            anim5.start(Mainscreenvar.ids.container.children[4])
+            anim5.start(Mainscreenvar.ids.b_card.parent)
 
         elif identifier == 1:
             anim2.start(caller.parent.parent.parent.children[2])
             anim1.start(caller.parent.parent)
             anim3.start(caller.parent.parent.parent.children[0])
             anim4.start(Mainscreenvar)
-            anim5.start(Mainscreenvar.ids.container.children[4])
+            anim5.start(Mainscreenvar.ids.b_card.parent)
 
     def Sending_sreen_str_anim(self,caller,*args,identifier):
         Mainscreenvar = sm.get_screen('MainScreen')
-        anim1 = Animation(duration = .1)
-        anim1 += Animation(size_hint = (0.38,0.22), duration = .1, t='in_out_circ')
+        anim1 = Animation(size_hint = (0.38,0.22), duration = .1, t='in_out_circ')
         anim1 += Animation(pos_hint = {'center_x':.5, "center_y":2}, duration = .3, t='in_out_circ')
         anim1.bind(on_complete = partial(MenuScreen.Back_button_appearer,self))
 
@@ -83,24 +83,28 @@ class MenuScreen():
 
         anim5 = Animation(pos_hint = {'center_x':.525, 'center_y':.525}, duration = .4, t='in_out_circ')
 
-        anim6 = Animation(size = (Window.width - Window.width/20, Window.height-Window.height/20),duration = .4)
+        anim6 = Animation(size = (Window.width - Window.width/20, Window.height-Window.height/20),duration = .2)
 
         if identifier == 0:
             anim2.start(caller.parent.children[1])
             anim1.start(caller)
             anim3.start(caller.parent.children[0])
             anim4.start(Mainscreenvar)
-            anim5.start(Mainscreenvar.ids.container.children[4])
-            anim6.start(Mainscreenvar.ids.container.children[4].children[0])
+            anim5.start(Mainscreenvar.ids.container.children[3])
+            anim6.start(Mainscreenvar.ids.b_card)
 
 
         elif identifier == 1:
-            anim2.start(caller.parent.parent.parent.children[1])
+            print(caller)
+            print(caller.parent)
+            print(caller.parent.parent)
+            print(caller.parent.parent.parent.children)
             anim1.start(caller.parent.parent)
+            anim2.start(caller.parent.parent.parent.children[1])
             anim3.start(caller.parent.parent.parent.children[0])
             anim4.start(Mainscreenvar)
-            anim5.start(Mainscreenvar.ids.container.children[4])
-            anim6.start(Mainscreenvar.ids.container.children[4].children[0])
+            anim5.start(Mainscreenvar.ids.b_card.parent)
+            anim6.start(Mainscreenvar.ids.b_card)
 
 
     def Back_button_appearer(self,*args):
@@ -128,14 +132,12 @@ class SenderScreen():
 
         anim2 = Animation(pos_hint = {'center_x':1, 'center_y':.55}, duration = .4, t='in_out_circ')
 
-        anim3 = Animation(height = Window.height,width = Window.width*1.2, duration = .4, t='in_out_circ')
+        anim3 = Animation(size = (kivy.metrics.dp(600), kivy.metrics.dp(900)), duration = .4, t='in_out_circ')
 
         anim1.start(Mainscreenvar)
-        anim2.start(Mainscreenvar.ids.container.children[2])
-        anim3.start(Mainscreenvar.ids.container.children[2].children[0])
-
+        anim2.start(Mainscreenvar.ids.container.children[1])
+        anim3.start(Mainscreenvar.ids.b_card)
         Mainscreenvar.ids.container.remove_widget(self.back_button)
-
         MenuScreen.Menuscreenloader(self)
 
     def load_ui(self, caller, *args):
@@ -150,12 +152,12 @@ class SenderScreen():
 
 
 
-
-
-
+class BackgroundCard(MDCard):
+    pass
 
 class SenderButton(MDCard):
     pass
+
 
 class ReceiverButton(MDCard):
     pass
@@ -169,6 +171,8 @@ class SelectButton(MDFillRoundFlatButton, RectangularElevationBehavior):
 class MainScreen(Screen):
     angle = NumericProperty(45)
 
+
+
 class SettingsScreen(Screen):
     pass
 
@@ -176,9 +180,14 @@ class SettingsScreen(Screen):
 sm = ScreenManager()
 
 class Mainapp(MDApp):
-
     def build(self):
-        Builder.load_file('file_compressor.kv')
+        self.gradient = Texture.create(size=(1, 2), colorfmt='rgb')
+        color1 =[40,35,75,1]
+        color2 =[35,60,75,1]
+        buf = bytes(color1+color2)
+        self.gradient.blit_buffer(buf, colorfmt='rgb', bufferfmt='ubyte')
+
+        Builder.load_file('shareapp.kv')
         sm.add_widget(MainScreen(name='MainScreen'))
         return sm
 
