@@ -14,7 +14,7 @@
         Label:
             text:"Send"
             pos_hint:{'center_x':.5, "center_y":.15}
-            color:0,0,0,1
+            color:0.6,0.8,0.8,1
             font_name:'Roboto-Bold'
             font_size: '15sp'
 
@@ -24,7 +24,7 @@
             user_font_size:'70sp'
             pos_hint:{'center_x':.5, "center_y":.5}
             theme_text_color: "Custom"
-            text_color:25/225,60/225,65/225,1
+            text_color:0.6,0.8,0.8,1
 
 
 <ReceiverButton>:
@@ -33,7 +33,7 @@
     size_hint: 0.40, 0.25
     pos_hint:{'center_x':.5, "center_y":.30}
     radius: 50,50,50,50
-    md_bg_color:1,1,1,1
+    md_bg_color:0.1,0.1,0.1,1
     elevation: 12
 
     FloatLayout:
@@ -41,17 +41,16 @@
         Label:
             text:"Recieve"
             pos_hint:{'center_x':.5, "center_y":.15}
-            color:0,0,0,1
+            color:0.6,0.6,0.8,1
             font_name:'Roboto-Bold'
             font_size: '15sp'
-            texture:app.gradient
 
         MDIconButton:
             icon:'download'
             user_font_size:'70sp'
             pos_hint:{'center_x':.5, "center_y":.5}
             theme_text_color: "Custom"
-            text_color:30/255,25/255,65/255,1
+            text_color:0.6,0.6,0.8,1
 
 <SettingsButton>:
     opacity:0
@@ -63,8 +62,16 @@
     on_release:self.grow()
 
 <SelectButton>:
-    elevation: 13
-    md_bg_color: 1, 0, 1, 1
+    icon:'upload'
+    user_font_size:'30sp'
+    theme_text_color: "Custom"
+    text_color:0.6,0.6,0.8,1
+    elevation: 11
+    md_bg_color: 0.1,0.1,0.1,1
+    pos_hint:{'center_x':.5, 'center_y':.35}
+    opacity:0
+    on_release:self.grow(), self.open_filemanager(app)
+
 
 
 
@@ -99,3 +106,6 @@
                 radius:20,20,20,20
                 elevation:16
                 md_bg_color: 3/255,128/255,108/255, 1
+                FloatLayout:
+                    size:self.size
+                    pos:self.pos
