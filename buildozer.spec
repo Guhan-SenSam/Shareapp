@@ -42,6 +42,7 @@ requirements = python3,kivy,kivymd,plyer
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
 requirements.source.kivymd = kivymd
+requirements.source.plyer = plyer
 
 # (list) Garden requirements
 #garden_requirements =

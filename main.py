@@ -17,7 +17,7 @@ import kivy.metrics
 from kivy.utils import platform
 
 import plyer
-
+import os
 from functools import partial
 
 class MenuScreen():
@@ -264,18 +264,33 @@ class SelectButton(MagicBehavior, MDFloatingActionButton):
 
     def open_filemanager(caller, self):
         Mainscreenvar = sm.get_screen('MainScreen')
-        files = plyer.filechooser.open_file(multiple = True)
-        if files == None or len(files) == 0:
-            self.no_file_error = Snackbar(text="Please select a file to send")
-            self.no_file_error.show()
+        files = plyer.filechooser.open_file(on_selection = partial(caller.test,self))
+
+    def test(caller,self,selection):
+        self.label = Label(text = str(selection), font_size = '8sp')
+        for a in selection:
+            if os.path.isfile(a):
+                print("Was a file")
+        Mainscreenvar = sm.get_screen('MainScreen')
+        Mainscreenvar.ids.container.add_widget(self.label)
 
 
-        else:
-            anim1 = Animation(opacity = 0, duration = .3)
-            anim2 = Animation(opacity = 0, duration = .3)
-            anim1.bind(on_complete = partial(SenderScreen.ready_files_ui,self, files))
-            anim1.start(self.text)
-            anim2.start(self.select_button)
+    def android_selected_files(caller,self,selection):
+        Mainscreenvar = sm.get_screen('MainScreen')
+        Mainscreenvar.clear_widgets()
+        # print(selection)
+        # if selection == None or len(selection) == 0:
+        #     self.no_file_error = Snackbar(text="Please select a file to send")
+        #     self.no_file_error.show()
+        #     print("Not showinh")
+        #
+        #
+        # else:
+        #     anim1 = Animation(opacity = 0, duration = .3)
+        #     anim2 = Animation(opacity = 0, duration = .3)
+        #     anim1.bind(on_complete = partial(SenderScreen.ready_files_ui,self, selection))
+        #     anim1.start(self.text)
+        #     anim2.start(self.select_button)
 
 
 
@@ -307,4 +322,12 @@ class Mainapp(MDApp):
 
 if kivy.utils.platform != 'android':
     Window.size = (360,640)
+
+if platform == 'android':
+    from android.permissions import request_permissions, Permission
+    request_permissions([
+        Permission.WRITE_EXTERNAL_STORAGE,
+        Permission.READ_EXTERNAL_STORAGE,
+        Permission.INTERNET,
+    ])
 Mainapp().run()
