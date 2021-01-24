@@ -6,7 +6,7 @@
     size_hint: 0.40, 0.25
     pos_hint:{'center_x':.5, "center_y":.60}
     radius: 50,50,50,50
-    md_bg_color:0.1,0.1,0.1,1
+    md_bg_color:1,1,1,1
     elevation: 12
 
     FloatLayout:
@@ -14,7 +14,7 @@
         Label:
             text:"Send"
             pos_hint:{'center_x':.5, "center_y":.15}
-            color:0.6,0.8,0.8,1
+            color:0.1,0.3,0.3,1
             font_name:'Roboto-Bold'
             font_size: '15sp'
 
@@ -24,7 +24,25 @@
             user_font_size:'70sp'
             pos_hint:{'center_x':.5, "center_y":.5}
             theme_text_color: "Custom"
-            text_color:0.6,0.8,0.8,1
+            text_color:0.1,0.3,0.3,1
+
+<SearchingAnimation>:
+    end_angle:0.0
+    start_angle:0.0
+    canvas:
+        Color:
+            rgba: 3/255,100/255,72/255, 1
+        Ellipse:
+            angle_start: self.start_angle
+            angle_end: self.end_angle
+            pos:self.object_pos
+            size:self.object_size
+
+        Ellipse:
+            angle_start: self.end_angle
+            angle_end: self.start_angle
+
+
 
 
 <ReceiverButton>:
@@ -33,7 +51,7 @@
     size_hint: 0.40, 0.25
     pos_hint:{'center_x':.5, "center_y":.30}
     radius: 50,50,50,50
-    md_bg_color:0.1,0.1,0.1,1
+    md_bg_color:1,1,1,1
     elevation: 12
 
     FloatLayout:
@@ -41,7 +59,7 @@
         Label:
             text:"Recieve"
             pos_hint:{'center_x':.5, "center_y":.15}
-            color:0.6,0.6,0.8,1
+            color:0.2,0.2,0.4,1
             font_name:'Roboto-Bold'
             font_size: '15sp'
 
@@ -50,7 +68,7 @@
             user_font_size:'70sp'
             pos_hint:{'center_x':.5, "center_y":.5}
             theme_text_color: "Custom"
-            text_color:0.6,0.6,0.8,1
+            text_color:0.2,0.2,0.4,1
 
 <SettingsButton>:
     opacity:0
@@ -65,13 +83,48 @@
     icon:'upload'
     user_font_size:'30sp'
     theme_text_color: "Custom"
-    text_color:0.6,0.6,0.8,1
+    text_color:0.2,0.2,0.4,1
     elevation: 11
-    md_bg_color: 0.1,0.1,0.1,1
+    md_bg_color: 1,1,1,1
     pos_hint:{'center_x':.5, 'center_y':.35}
     opacity:0
     on_release:self.grow(), self.open_filemanager(app)
 
+<FileReadyCard>:
+    opacity:0
+    size_hint: 0.90, 0.05
+    pos_hint:{'center_x':.5, "center_y":.0}
+    radius: 10,10,10,10
+    md_bg_color:1,1,1,1
+    elevation: 12
+
+    Label:
+        text:
+        halign:'center'
+        color:0.2,0.2,0.4,1
+        font_name:'Roboto-Bold'
+        font_size: '20sp'
+
+    Label:
+        text:
+        halign:'center'
+        color:0.2,0.2,0.4,1
+        font_name:'Roboto-Bold'
+        font_size: '20sp'
+
+<SearchingObject>:
+    size_hint: 0.25, 0.1
+    pos_hint:{'center_x':.5, "center_y":.5}
+    radius: 5,5,5,5
+    md_bg_color:1,1,1,1
+    elevation: 12
+
+    Label:
+        text:'Searching for \n receivers'
+        halign:'center'
+        color:0.2,0.2,0.4,1
+        font_name:'Roboto-Bold'
+        font_size: '12sp'
 
 
 

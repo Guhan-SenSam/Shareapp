@@ -15,6 +15,7 @@ from kivy.graphics.texture import Texture
 from kivy.uix.label import Label
 import kivy.metrics
 from kivy.utils import platform
+from kivy.clock import Clock
 
 import plyer
 import os
@@ -236,10 +237,58 @@ class SenderScreen():
         anim2.start(self.text)
         anim3.start(self.select_button)
 
+
+    def searcher_animation_1(self, elapsed_time):
+        if self.animation_object.end_angle == 0.0:
+            anim1 = Animation(end_angle = 360.0, duration = 1, t="in_out_circ")
+            anim1.start(self.animation_object)
+
+        elif self.animation_object.end_angle == 360.0:
+            anim2 = Animation(start_angle = 360.0, duration = 1, t="in_out_circ")
+            anim2.start(self.animation_object)
+            anim2.bind(on_complete = partial(SenderScreen.angle_reseter, self))
+
+    def angle_reseter(self, animatio_object, caller):
+        self.animation_object.end_angle = 0
+        self.animation_object.start_angle = 0
+
     def ready_files_ui(self, files, *args):
         Mainscreenvar = sm.get_screen('MainScreen')
         self.layout_object.clear_widgets()
-        print(files)
+        self.file_count = len(files)
+        self.total_size = 0
+        for path in files:
+            val = os.stat(path).st_size
+            self.total_size +=val
+        self.total_size = round(self.total_size /1000000000, 2)
+        self.files_ready_card = FileReadyCard()
+        self.files_ready_card.children[1].text = str(self.file_count) + " files"
+        self.files_ready_card.children[0].text = str(self.total_size) + "GB"
+        self.layout_object.add_widget(self.files_ready_card)
+
+        anim1 = Animation(opacity = 1, duration = .4, t='in_out_circ')
+        anim2 = Animation(pos_hint={'center_x':.5, "center_y":.06}, duration = .2)
+        anim1.start(self.files_ready_card)
+        anim2.start(self.files_ready_card)
+        circle_x_size = Window.size[0]/2
+        circle_y_size = Window.size[0]/2
+        SearchingAnimation.object_size = (circle_x_size, circle_y_size)
+        SearchingAnimation.object_pos = (Window.center[0]-circle_x_size/2, Window.center[1]-circle_y_size/2)
+        self.animation_object = SearchingAnimation()
+        self.layout_object.add_widget(self.animation_object)
+
+        self.searching_object = SearchingObject()
+        self.layout_object.add_widget(self.searching_object)
+        Clock.schedule_interval(partial(SenderScreen.searcher_animation_1, self), 1.1)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -263,40 +312,27 @@ class SettingsButton(MDIconButton, MagicBehavior):
 class SelectButton(MagicBehavior, MDFloatingActionButton):
 
     def open_filemanager(caller, self):
-        Mainscreenvar = sm.get_screen('MainScreen')
-        files = plyer.filechooser.open_file(on_selection = partial(caller.test,self))
-
-    def test(caller,self,selection):
-        self.label = Label(text = str(selection), font_size = '8sp')
-        for a in selection:
-            if os.path.isfile(a):
-                print("Was a file")
-        Mainscreenvar = sm.get_screen('MainScreen')
-        Mainscreenvar.ids.container.add_widget(self.label)
-
+        self.files = plyer.filechooser.open_file(on_selection = partial(caller.android_selected_files,self), multiple = True)
 
     def android_selected_files(caller,self,selection):
-        Mainscreenvar = sm.get_screen('MainScreen')
-        Mainscreenvar.clear_widgets()
-        # print(selection)
-        # if selection == None or len(selection) == 0:
-        #     self.no_file_error = Snackbar(text="Please select a file to send")
-        #     self.no_file_error.show()
-        #     print("Not showinh")
-        #
-        #
-        # else:
-        #     anim1 = Animation(opacity = 0, duration = .3)
-        #     anim2 = Animation(opacity = 0, duration = .3)
-        #     anim1.bind(on_complete = partial(SenderScreen.ready_files_ui,self, selection))
-        #     anim1.start(self.text)
-        #     anim2.start(self.select_button)
+        anim1 = Animation(opacity = 0, duration = .3)
+        anim2 = Animation(opacity = 0, duration = .3)
+        anim1.bind(on_complete = partial(SenderScreen.ready_files_ui,self, selection))
+        anim1.start(self.text)
+        anim2.start(self.select_button)
 
+class FileReadyCard(MDCard):
+    pass
 
+class SearchingObject(MDCard):
+    pass
+
+class SearchingAnimation(FloatLayout):
+    object_pos = None
+    object_size = None
 
 class MainScreen(Screen):
     angle = NumericProperty(45)
-
 
 
 class SettingsScreen(Screen):
@@ -308,8 +344,8 @@ sm = ScreenManager()
 class Mainapp(MDApp):
     def build(self):
         self.gradient = Texture.create(size=(1, 2), colorfmt='rgb')
-        color1 =[40,35,75,1]
-        color2 =[35,60,75,1]
+        color1 =[45,40,80,1]
+        color2 =[45,75,90,1]
         buf = bytes(color1+color2)
         self.gradient.blit_buffer(buf, colorfmt='rgb', bufferfmt='ubyte')
 

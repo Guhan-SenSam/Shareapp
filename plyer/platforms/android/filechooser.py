@@ -114,14 +114,13 @@ class AndroidFileChooser(FileChooser):
         )
 
         # create Intent for opening
-        file_intent = Intent(Intent.ACTION_GET_CONTENT)
+        file_intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
         file_intent.setType('*/*')
         file_intent.addCategory(
             Intent.CATEGORY_OPENABLE
         )
         if self.multiple:
             file_intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, True)
-
 
         # start a new activity from PythonActivity
         # which creates a filechooser via intent
@@ -143,20 +142,19 @@ class AndroidFileChooser(FileChooser):
 
         # not our response
         if request_code != self.select_code:
-            return
+            return None
 
         if result_code != Activity.RESULT_OK:
             # The action had been cancelled.
-            return
-
-        list = []
-
-        for  index in range(data.getClipData().getItemCount()):
-            uri = data.getClipData().getItemAt(index).getUri()
-            list.append(uri)
-
-
-        selection = self._resolve_uri(list)
+            on_selection = False
+            return False
+        selection=[]
+        try:
+            for count in range(data.getClipData().getItemCount()):
+                ele = self._resolve_uri(data.getClipData().getItemAt(count).getUri()) or []
+                selection.append(ele)
+        except:
+            selection = [self._resolve_uri(data.getData()),]
 
         # return value to object
         self.selection = selection
@@ -180,15 +178,17 @@ class AndroidFileChooser(FileChooser):
 
         # external (removable) SD card i.e. microSD
         external = storagepath.get_sdcard_dir()
-        external_base = basename(external)
+        if external != None:
+            external_base = basename(external)
 
         # resolve sdcard path
         sdcard = internal
 
         # because external might have /storage/.../1 or other suffix
         # and file_type might be only a part of the real folder in /storage
-        if file_type in external_base or external_base in file_type:
-            sdcard = external
+        if external != None:
+            if file_type in external_base or external_base in file_type:
+                sdcard = external
 
         path = join(sdcard, file_name)
         return path
@@ -254,12 +254,11 @@ class AndroidFileChooser(FileChooser):
         ]
 
         file_id = DocumentsContract.getDocumentId(uri)
-        try_uris = [
-            ContentUris.withAppendedId(
-                Uri.parse(down), Long.valueOf(file_id)
-            )
-            for down in downloads
-        ]
+        for down in downloads:
+         try_uris = [
+             ContentUris.withAppendedId(Uri.parse(down), Long.valueOf(file_id[4:-1]))
+             for down in downloads
+         ]
 
         # try all known Download folder uris
         # and handle JavaExceptions due to different locations
@@ -310,11 +309,43 @@ class AndroidFileChooser(FileChooser):
 
         .. versionadded:: 1.4.0
         '''
-        list2=[]
-        for counter in uri:
-    	    path = counter.getPath()
-    	    list2.append(path)
-        return list2
+
+        uri_authority = uri.getAuthority()
+        uri_scheme = uri.getScheme().lower()
+
+        path = None
+        file_name = None
+        selection = None
+        downloads = None
+
+        # not a document URI, nothing to convert from
+        if not DocumentsContract.isDocumentUri(mActivity, uri):
+            return path
+
+        if uri_authority == 'com.android.externalstorage.documents':
+            return self._handle_external_documents(uri)
+
+        # in case a user selects a file from 'Downloads' section
+        # note: this won't be triggered if a user selects a path directly
+        #       e.g.: Phone -> Download -> <some file>
+        elif uri_authority == 'com.android.providers.downloads.documents':
+            path = downloads = self._handle_downloads_documents(uri)
+
+        elif uri_authority == 'com.android.providers.media.documents':
+            file_name, selection, uri = self._handle_media_documents(uri)
+
+        # parse content:// scheme to path
+        if uri_scheme == 'content' and not downloads:
+            path = self._parse_content(
+                uri=uri, projection=['_data'], selection=selection,
+                selection_args=[file_name], sort_order=None
+            )
+
+        # nothing to parse, file:// will return a proper path
+        elif uri_scheme == 'file':
+            path = uri.getPath()
+
+        return path
 
     @staticmethod
     def _parse_content(
