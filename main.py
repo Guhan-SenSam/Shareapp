@@ -242,15 +242,31 @@ class SenderScreen():
         if self.animation_object.end_angle == 0.0:
             anim1 = Animation(end_angle = 360.0, duration = 1, t="in_out_circ")
             anim1.start(self.animation_object)
+            anim2 = Animation(end_angle2 = -360.0, duration =1, t = 'in_out_circ')
+            anim2.start(self.animation_object)
+            object_size = self.animation_object.canvas.children[2].size
+            object_final_pos = (Window.center[0]-object_size[0]/3, Window.center[1]-object_size[1]/3)
+            anim3 = Animation(size = (object_size[0]/1.5, object_size[1]/1.5),pos = object_final_pos, duration =1, t = 'out_circ')
+            anim3.start(self.searching_object)
+            anim3.start(self.animation_object.canvas.children[2])
+
+
 
         elif self.animation_object.end_angle == 360.0:
-            anim2 = Animation(start_angle = 360.0, duration = 1, t="in_out_circ")
-            anim2.start(self.animation_object)
-            anim2.bind(on_complete = partial(SenderScreen.angle_reseter, self))
+            anim4 = Animation(start_angle = 360.0, duration = 1, t="in_out_circ")
+            anim4.start(self.animation_object)
+            anim5 = Animation(start_angle2 = -360, duration = 1, t="in_out_circ")
+            anim5.start(self.animation_object)
+            anim5.bind(on_complete = partial(SenderScreen.angle_reseter, self))
+            object_initial_pos = (Window.center[0]-Window.size[0]/3, Window.center[1]-Window.size[0]/3)
+            anim6 = Animation(size = (Window.size[0]/1.5, Window.size[0]/1.5), pos = object_initial_pos, duration =1, t = 'out_circ')
+            anim6.start(self.animation_object.canvas.children[2])
 
     def angle_reseter(self, animatio_object, caller):
         self.animation_object.end_angle = 0
         self.animation_object.start_angle = 0
+        self.animation_object.end_angle2 = 0
+        self.animation_object.start_angle2 = 0
 
     def ready_files_ui(self, files, *args):
         Mainscreenvar = sm.get_screen('MainScreen')
@@ -270,10 +286,18 @@ class SenderScreen():
         anim2 = Animation(pos_hint={'center_x':.5, "center_y":.06}, duration = .2)
         anim1.start(self.files_ready_card)
         anim2.start(self.files_ready_card)
-        circle_x_size = Window.size[0]/2
-        circle_y_size = Window.size[0]/2
-        SearchingAnimation.object_size = (circle_x_size, circle_y_size)
-        SearchingAnimation.object_pos = (Window.center[0]-circle_x_size/2, Window.center[1]-circle_y_size/2)
+        circle_x_size1 = Window.size[0]/3
+        circle_y_size1 = Window.size[0]/3
+        circle_x_size2 = Window.size[0]/2.5
+        circle_y_size2 = Window.size[0]/2.5
+        circle_x_size3 = Window.size[0]/1.5
+        circle_y_size3 = Window.size[0]/1.5
+        SearchingAnimation.object_size1 = (circle_x_size1, circle_y_size1)
+        SearchingAnimation.object_size2 = (circle_x_size2, circle_y_size2)
+        SearchingAnimation.object_size3 = (circle_x_size3, circle_y_size3)
+        SearchingAnimation.object_pos1 = (Window.center[0]-circle_x_size1/2, Window.center[1]-circle_y_size1/2)
+        SearchingAnimation.object_pos2 = (Window.center[0]-circle_x_size2/2, Window.center[1]-circle_y_size2/2)
+        SearchingAnimation.object_pos3 = (Window.center[0]-circle_x_size3/2, Window.center[1]-circle_y_size3/2)
         self.animation_object = SearchingAnimation()
         self.layout_object.add_widget(self.animation_object)
 
@@ -328,9 +352,7 @@ class SearchingObject(MDCard):
     pass
 
 class SearchingAnimation(FloatLayout):
-    object_pos = None
-    object_size = None
-
+    pass
 class MainScreen(Screen):
     angle = NumericProperty(45)
 
