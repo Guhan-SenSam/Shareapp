@@ -1,0 +1,1510 @@
+02-07 03:49:59.776 V/PythonActivity( 1704): PythonActivity onCreate running
+02-07 03:49:59.776 V/PythonActivity( 1704): About to do super onCreate
+02-07 03:49:59.777 V/SDL     ( 1704): Device: vbox86p
+02-07 03:49:59.777 V/SDL     ( 1704): Model: Google Pixel 2 XL
+02-07 03:49:59.777 V/SDL     ( 1704): onCreate()
+02-07 03:49:59.777 V/PythonActivity( 1704): Did super onCreate
+02-07 03:49:59.777 V/SDL     ( 1704): getting identifier
+02-07 03:49:59.777 V/SDL     ( 1704): kind is drawable and name presplash
+02-07 03:49:59.777 V/SDL     ( 1704): result is 2130771970
+02-07 03:49:59.779 I/vndksupport( 1704): sphal namespace is not configured for this process. Loading /vendor/lib/egl/libGLESv2_emulation.so from the current namespace instead.
+02-07 03:49:59.805 V/SDL     ( 1704): asked to get string presplash_color
+02-07 03:49:59.805 V/SDL     ( 1704): getting identifier
+02-07 03:49:59.805 V/SDL     ( 1704): kind is string and name presplash_color
+02-07 03:49:59.806 V/SDL     ( 1704): result is 2130968577
+02-07 03:49:59.812 V/PythonActivity( 1704): Ready to unpack
+02-07 03:49:59.812 V/pythonactivityutil( 1704): UNPACKING!!! private app
+02-07 03:49:59.812 V/SDL     ( 1704): asked to get string private_version
+02-07 03:49:59.812 V/SDL     ( 1704): getting identifier
+02-07 03:49:59.813 V/SDL     ( 1704): kind is string and name private_version
+02-07 03:49:59.813 V/SDL     ( 1704): result is 2130968578
+02-07 03:49:59.813 V/pythonactivityutil( 1704): Data version is 1612634529.0738952
+02-07 03:49:59.814 V/pythonactivityutil( 1704): Extracting private assets.
+02-07 03:49:59.815 V/PythonActivity( 1704): onResume()
+02-07 03:49:59.815 V/SDL     ( 1704): onResume()
+02-07 03:49:59.818 V/python  ( 1704): extracting p4a_env_vars.txt
+02-07 03:49:59.818 V/python  ( 1704): extracting Roboto-Bold.ttf
+02-07 03:49:59.822 D/OpenGLRenderer( 1704): HWUI GL Pipeline
+02-07 03:49:59.827 V/python  ( 1704): extracting shareapp.kv
+02-07 03:49:59.828 V/python  ( 1704): extracting Roboto-Regular.ttf
+02-07 03:49:59.834 V/python  ( 1704): extracting sitecustomize.pyc
+02-07 03:49:59.834 V/python  ( 1704): extracting Roboto-Black.ttf
+02-07 03:49:59.843 V/python  ( 1704): extracting Roboto-Medium.ttf
+02-07 03:49:59.845 D/        ( 1704): HostConnection::get() New Host Connection established 0xdf5bd7c0, tid 1728
+02-07 03:49:59.856 V/python  ( 1704): extracting main.pyc
+02-07 03:49:59.857 V/python  ( 1704): extracting plyer/
+02-07 03:49:59.858 V/python  ( 1704): extracting plyer/utils.pyc
+02-07 03:49:59.860 V/python  ( 1704): extracting plyer/__init__.pyc
+02-07 03:49:59.860 V/python  ( 1704): extracting plyer/facades/
+02-07 03:49:59.861 V/python  ( 1704): extracting plyer/facades/temperature.pyc
+02-07 03:49:59.861 V/python  ( 1704): extracting plyer/facades/call.pyc
+02-07 03:49:59.862 V/python  ( 1704): extracting plyer/facades/proximity.pyc
+02-07 03:49:59.862 V/python  ( 1704): extracting plyer/facades/camera.pyc
+02-07 03:49:59.863 V/python  ( 1704): extracting plyer/facades/battery.pyc
+02-07 03:49:59.864 D/        ( 1704): HostComposition ext GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_gles_max_version_3_1 
+02-07 03:49:59.864 W/        ( 1704): Process pipe failed
+02-07 03:49:59.864 V/python  ( 1704): extracting plyer/facades/stt.pyc
+02-07 03:49:59.865 V/python  ( 1704): extracting plyer/facades/flash.pyc
+02-07 03:49:59.866 V/python  ( 1704): extracting plyer/facades/gyroscope.pyc
+02-07 03:49:59.869 V/python  ( 1704): extracting plyer/facades/barometer.pyc
+02-07 03:49:59.870 V/python  ( 1704): extracting plyer/facades/humidity.pyc
+02-07 03:49:59.870 V/python  ( 1704): extracting plyer/facades/irblaster.pyc
+02-07 03:49:59.872 V/python  ( 1704): extracting plyer/facades/compass.pyc
+02-07 03:49:59.873 V/python  ( 1704): extracting plyer/facades/sms.pyc
+02-07 03:49:59.876 I/OpenGLRenderer( 1704): Initialized EGL, version 1.4
+02-07 03:49:59.876 D/OpenGLRenderer( 1704): Swap behavior 1
+02-07 03:49:59.877 V/python  ( 1704): extracting plyer/facades/cpu.pyc
+02-07 03:49:59.879 W/OpenGLRenderer( 1704): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-07 03:49:59.879 D/OpenGLRenderer( 1704): Swap behavior 0
+02-07 03:49:59.879 V/python  ( 1704): extracting plyer/facades/screenshot.pyc
+02-07 03:49:59.879 V/python  ( 1704): extracting plyer/facades/notification.pyc
+02-07 03:49:59.879 V/python  ( 1704): extracting plyer/facades/light.pyc
+02-07 03:49:59.879 V/python  ( 1704): extracting plyer/facades/orientation.pyc
+02-07 03:49:59.879 V/python  ( 1704): extracting plyer/facades/email.pyc
+02-07 03:49:59.884 V/python  ( 1704): extracting plyer/facades/audio.pyc
+02-07 03:49:59.886 V/python  ( 1704): extracting plyer/facades/__init__.pyc
+02-07 03:49:59.887 V/python  ( 1704): extracting plyer/facades/uniqueid.pyc
+02-07 03:49:59.887 V/python  ( 1704): extracting plyer/facades/processors.pyc
+02-07 03:49:59.888 V/python  ( 1704): extracting plyer/facades/brightness.pyc
+02-07 03:49:59.888 V/python  ( 1704): extracting plyer/facades/filechooser.pyc
+02-07 03:49:59.888 V/python  ( 1704): extracting plyer/facades/gps.pyc
+02-07 03:49:59.889 V/python  ( 1704): extracting plyer/facades/gravity.pyc
+02-07 03:49:59.889 V/python  ( 1704): extracting plyer/facades/wifi.pyc
+02-07 03:49:59.891 V/python  ( 1704): extracting plyer/facades/spatialorientation.pyc
+02-07 03:49:59.891 V/python  ( 1704): extracting plyer/facades/tts.pyc
+02-07 03:49:59.892 V/python  ( 1704): extracting plyer/facades/keystore.pyc
+02-07 03:49:59.892 V/python  ( 1704): extracting plyer/facades/bluetooth.pyc
+02-07 03:49:59.893 V/python  ( 1704): extracting plyer/facades/storagepath.pyc
+02-07 03:49:59.895 V/python  ( 1704): extracting plyer/facades/accelerometer.pyc
+02-07 03:49:59.895 V/python  ( 1704): extracting plyer/facades/vibrator.pyc
+02-07 03:49:59.896 V/python  ( 1704): extracting plyer/platforms/
+02-07 03:49:59.896 V/python  ( 1704): extracting plyer/platforms/__init__.pyc
+02-07 03:49:59.897 D/EGL_emulation( 1704): eglCreateContext: 0xe90a1860: maj 3 min 1 rcv 4
+02-07 03:49:59.898 V/python  ( 1704): extracting plyer/platforms/linux/
+02-07 03:49:59.898 V/python  ( 1704): extracting plyer/platforms/linux/battery.pyc
+02-07 03:49:59.900 V/python  ( 1704): extracting plyer/platforms/linux/cpu.pyc
+02-07 03:49:59.901 V/python  ( 1704): extracting plyer/platforms/linux/screenshot.pyc
+02-07 03:49:59.901 V/python  ( 1704): extracting plyer/platforms/linux/notification.pyc
+02-07 03:49:59.901 V/python  ( 1704): extracting plyer/platforms/linux/orientation.pyc
+02-07 03:49:59.902 V/python  ( 1704): extracting plyer/platforms/linux/email.pyc
+02-07 03:49:59.902 V/python  ( 1704): extracting plyer/platforms/linux/__init__.pyc
+02-07 03:49:59.902 V/python  ( 1704): extracting plyer/platforms/linux/uniqueid.pyc
+02-07 03:49:59.902 V/python  ( 1704): extracting plyer/platforms/linux/processors.pyc
+02-07 03:49:59.903 V/python  ( 1704): extracting plyer/platforms/linux/brightness.pyc
+02-07 03:49:59.903 V/python  ( 1704): extracting plyer/platforms/linux/filechooser.pyc
+02-07 03:49:59.903 V/python  ( 1704): extracting plyer/platforms/linux/wifi.pyc
+02-07 03:49:59.904 V/python  ( 1704): extracting plyer/platforms/linux/tts.pyc
+02-07 03:49:59.904 V/python  ( 1704): extracting plyer/platforms/linux/keystore.pyc
+02-07 03:49:59.905 V/python  ( 1704): extracting plyer/platforms/linux/storagepath.pyc
+02-07 03:49:59.906 V/python  ( 1704): extracting plyer/platforms/linux/accelerometer.pyc
+02-07 03:49:59.906 V/python  ( 1704): extracting plyer/platforms/win/
+02-07 03:49:59.906 V/python  ( 1704): extracting plyer/platforms/win/battery.pyc
+02-07 03:49:59.906 V/python  ( 1704): extracting plyer/platforms/win/cpu.pyc
+02-07 03:49:59.907 V/python  ( 1704): extracting plyer/platforms/win/screenshot.pyc
+02-07 03:49:59.909 V/python  ( 1704): extracting plyer/platforms/win/notification.pyc
+02-07 03:49:59.910 V/python  ( 1704): extracting plyer/platforms/win/email.pyc
+02-07 03:49:59.910 V/python  ( 1704): extracting plyer/platforms/win/audio.pyc
+02-07 03:49:59.912 V/python  ( 1704): extracting plyer/platforms/win/__init__.pyc
+02-07 03:49:59.913 V/python  ( 1704): extracting plyer/platforms/win/uniqueid.pyc
+02-07 03:49:59.914 V/python  ( 1704): extracting plyer/platforms/win/filechooser.pyc
+02-07 03:49:59.914 V/python  ( 1704): extracting plyer/platforms/win/wifi.pyc
+02-07 03:49:59.915 V/python  ( 1704): extracting plyer/platforms/win/tts.pyc
+02-07 03:49:59.915 V/python  ( 1704): extracting plyer/platforms/win/keystore.pyc
+02-07 03:49:59.916 V/python  ( 1704): extracting plyer/platforms/win/storagepath.pyc
+02-07 03:49:59.916 V/python  ( 1704): extracting plyer/platforms/win/libs/
+02-07 03:49:59.917 V/python  ( 1704): extracting plyer/platforms/win/libs/batterystatus.pyc
+02-07 03:49:59.917 V/python  ( 1704): extracting plyer/platforms/win/libs/wifi_defs.pyc
+02-07 03:49:59.918 V/python  ( 1704): extracting plyer/platforms/win/libs/__init__.pyc
+02-07 03:49:59.919 V/python  ( 1704): extracting plyer/platforms/win/libs/win_api_defs.pyc
+02-07 03:49:59.920 V/python  ( 1704): extracting plyer/platforms/win/libs/balloontip.pyc
+02-07 03:49:59.922 V/python  ( 1704): extracting plyer/platforms/android/
+02-07 03:49:59.923 V/python  ( 1704): extracting plyer/platforms/android/temperature.pyc
+02-07 03:49:59.932 V/python  ( 1704): extracting plyer/platforms/android/call.pyc
+02-07 03:49:59.934 V/python  ( 1704): extracting plyer/platforms/android/proximity.pyc
+02-07 03:49:59.934 V/python  ( 1704): extracting plyer/platforms/android/camera.pyc
+02-07 03:49:59.936 V/python  ( 1704): extracting plyer/platforms/android/battery.pyc
+02-07 03:49:59.937 V/python  ( 1704): extracting plyer/platforms/android/stt.pyc
+02-07 03:49:59.938 V/python  ( 1704): extracting plyer/platforms/android/flash.pyc
+02-07 03:49:59.939 V/python  ( 1704): extracting plyer/platforms/android/gyroscope.pyc
+02-07 03:49:59.940 V/python  ( 1704): extracting plyer/platforms/android/barometer.pyc
+02-07 03:49:59.940 V/python  ( 1704): extracting plyer/platforms/android/humidity.pyc
+02-07 03:49:59.941 V/python  ( 1704): extracting plyer/platforms/android/irblaster.pyc
+02-07 03:49:59.941 V/python  ( 1704): extracting plyer/platforms/android/compass.pyc
+02-07 03:49:59.942 V/python  ( 1704): extracting plyer/platforms/android/sms.pyc
+02-07 03:49:59.943 V/python  ( 1704): extracting plyer/platforms/android/notification.pyc
+02-07 03:49:59.944 V/python  ( 1704): extracting plyer/platforms/android/light.pyc
+02-07 03:49:59.946 V/python  ( 1704): extracting plyer/platforms/android/orientation.pyc
+02-07 03:49:59.947 V/python  ( 1704): extracting plyer/platforms/android/email.pyc
+02-07 03:49:59.948 V/python  ( 1704): extracting plyer/platforms/android/audio.pyc
+02-07 03:49:59.950 V/python  ( 1704): extracting plyer/platforms/android/__init__.pyc
+02-07 03:49:59.952 V/python  ( 1704): extracting plyer/platforms/android/uniqueid.pyc
+02-07 03:49:59.952 V/python  ( 1704): extracting plyer/platforms/android/brightness.pyc
+02-07 03:49:59.953 V/python  ( 1704): extracting plyer/platforms/android/filechooser.pyc
+02-07 03:49:59.954 V/python  ( 1704): extracting plyer/platforms/android/gps.pyc
+02-07 03:49:59.954 V/python  ( 1704): extracting plyer/platforms/android/gravity.pyc
+02-07 03:49:59.956 V/python  ( 1704): extracting plyer/platforms/android/spatialorientation.pyc
+02-07 03:49:59.957 V/python  ( 1704): extracting plyer/platforms/android/tts.pyc
+02-07 03:49:59.957 V/python  ( 1704): extracting plyer/platforms/android/keystore.pyc
+02-07 03:49:59.960 V/python  ( 1704): extracting plyer/platforms/android/bluetooth.pyc
+02-07 03:49:59.962 V/python  ( 1704): extracting plyer/platforms/android/storagepath.pyc
+02-07 03:49:59.962 V/python  ( 1704): extracting plyer/platforms/android/accelerometer.pyc
+02-07 03:49:59.964 V/python  ( 1704): extracting plyer/platforms/android/vibrator.pyc
+02-07 03:49:59.965 V/python  ( 1704): extracting plyer/platforms/ios/
+02-07 03:49:59.965 V/python  ( 1704): extracting plyer/platforms/ios/call.pyc
+02-07 03:49:59.965 V/python  ( 1704): extracting plyer/platforms/ios/camera.pyc
+02-07 03:49:59.966 V/python  ( 1704): extracting plyer/platforms/ios/battery.pyc
+02-07 03:49:59.968 V/python  ( 1704): extracting plyer/platforms/ios/flash.pyc
+02-07 03:49:59.969 V/python  ( 1704): extracting plyer/platforms/ios/gyroscope.pyc
+02-07 03:49:59.971 V/python  ( 1704): extracting plyer/platforms/ios/barometer.pyc
+02-07 03:49:59.972 V/python  ( 1704): extracting plyer/platforms/ios/compass.pyc
+02-07 03:49:59.973 V/python  ( 1704): extracting plyer/platforms/ios/sms.pyc
+02-07 03:49:59.973 V/python  ( 1704): extracting plyer/platforms/ios/email.pyc
+02-07 03:49:59.974 V/python  ( 1704): extracting plyer/platforms/ios/__init__.pyc
+02-07 03:49:59.974 V/python  ( 1704): extracting plyer/platforms/ios/uniqueid.pyc
+02-07 03:49:59.974 V/python  ( 1704): extracting plyer/platforms/ios/brightness.pyc
+02-07 03:49:59.975 V/python  ( 1704): extracting plyer/platforms/ios/filechooser.pyc
+02-07 03:49:59.975 V/python  ( 1704): extracting plyer/platforms/ios/gps.pyc
+02-07 03:49:59.976 V/python  ( 1704): extracting plyer/platforms/ios/gravity.pyc
+02-07 03:49:59.976 V/python  ( 1704): extracting plyer/platforms/ios/spatialorientation.pyc
+02-07 03:49:59.976 V/python  ( 1704): extracting plyer/platforms/ios/tts.pyc
+02-07 03:49:59.977 V/python  ( 1704): extracting plyer/platforms/ios/keystore.pyc
+02-07 03:49:59.977 V/python  ( 1704): extracting plyer/platforms/ios/storagepath.pyc
+02-07 03:49:59.977 V/python  ( 1704): extracting plyer/platforms/ios/accelerometer.pyc
+02-07 03:49:59.978 V/python  ( 1704): extracting plyer/platforms/ios/vibrator.pyc
+02-07 03:49:59.978 V/python  ( 1704): extracting plyer/platforms/macosx/
+02-07 03:49:59.978 V/python  ( 1704): extracting plyer/platforms/macosx/battery.pyc
+02-07 03:49:59.979 V/python  ( 1704): extracting plyer/platforms/macosx/cpu.pyc
+02-07 03:49:59.979 V/python  ( 1704): extracting plyer/platforms/macosx/screenshot.pyc
+02-07 03:49:59.979 V/python  ( 1704): extracting plyer/platforms/macosx/notification.pyc
+02-07 03:49:59.980 V/python  ( 1704): extracting plyer/platforms/macosx/email.pyc
+02-07 03:49:59.980 V/python  ( 1704): extracting plyer/platforms/macosx/audio.pyc
+02-07 03:49:59.994 V/python  ( 1704): extracting plyer/platforms/macosx/__init__.pyc
+02-07 03:49:59.994 V/python  ( 1704): extracting plyer/platforms/macosx/uniqueid.pyc
+02-07 03:49:59.995 V/python  ( 1704): extracting plyer/platforms/macosx/filechooser.pyc
+02-07 03:49:59.996 V/python  ( 1704): extracting plyer/platforms/macosx/wifi.pyc
+02-07 03:49:59.997 V/python  ( 1704): extracting plyer/platforms/macosx/tts.pyc
+02-07 03:49:59.997 V/python  ( 1704): extracting plyer/platforms/macosx/keystore.pyc
+02-07 03:49:59.997 V/python  ( 1704): extracting plyer/platforms/macosx/bluetooth.pyc
+02-07 03:49:59.998 V/python  ( 1704): extracting plyer/platforms/macosx/storagepath.pyc
+02-07 03:49:59.998 V/python  ( 1704): extracting plyer/platforms/macosx/accelerometer.pyc
+02-07 03:49:59.998 V/python  ( 1704): extracting plyer/platforms/macosx/libs/
+02-07 03:49:59.998 V/python  ( 1704): extracting plyer/platforms/macosx/libs/osx_paths.pyc
+02-07 03:49:59.999 V/python  ( 1704): extracting plyer/platforms/macosx/libs/osx_motion_sensor.pyc
+02-07 03:49:59.999 V/python  ( 1704): extracting plyer/platforms/macosx/libs/__init__.pyc
+02-07 03:50:00.000 V/python  ( 1704): extracting kivymd/
+02-07 03:50:00.001 V/python  ( 1704): extracting kivymd/icon_definitions.pyc
+02-07 03:50:00.002 E/memtrack(  525): Couldn't load memtrack module
+02-07 03:50:00.002 W/android.os.Debug(  525): failed to get memory consumption info: -1
+02-07 03:50:00.006 E/hw-IPCThreadState(  470): binder thread pool (1 threads) starved for 101 ms
+02-07 03:50:00.007 V/python  ( 1704): extracting kivymd/app.pyc
+02-07 03:50:00.007 V/python  ( 1704): extracting kivymd/factory_registers.pyc
+02-07 03:50:00.012 V/python  ( 1704): extracting kivymd/font_definitions.pyc
+02-07 03:50:00.012 V/python  ( 1704): extracting kivymd/theming.pyc
+02-07 03:50:00.013 V/python  ( 1704): extracting kivymd/__init__.pyc
+02-07 03:50:00.014 V/python  ( 1704): extracting kivymd/material_resources.pyc
+02-07 03:50:00.014 V/python  ( 1704): extracting kivymd/theming_dynamic_text.pyc
+02-07 03:50:00.015 V/python  ( 1704): extracting kivymd/color_definitions.pyc
+02-07 03:50:00.016 V/python  ( 1704): extracting kivymd/vendor/
+02-07 03:50:00.016 V/python  ( 1704): extracting kivymd/vendor/__init__.pyc
+02-07 03:50:00.017 V/python  ( 1704): extracting kivymd/vendor/circleLayout/
+02-07 03:50:00.017 V/python  ( 1704): extracting kivymd/vendor/circleLayout/__init__.pyc
+02-07 03:50:00.018 V/python  ( 1704): extracting kivymd/vendor/circularTimePicker/
+02-07 03:50:00.018 V/python  ( 1704): extracting kivymd/vendor/circularTimePicker/__init__.pyc
+02-07 03:50:00.019 V/python  ( 1704): extracting kivymd/fonts/
+02-07 03:50:00.021 V/python  ( 1704): extracting kivymd/fonts/Roboto-Bold.ttf
+02-07 03:50:00.031 V/python  ( 1704): extracting kivymd/fonts/Roboto-BlackItalic.ttf
+02-07 03:50:00.062 V/python  ( 1704): extracting kivymd/fonts/Roboto-Regular.ttf
+02-07 03:50:00.078 V/python  ( 1704): extracting kivymd/fonts/Roboto-Light.ttf
+02-07 03:50:00.085 V/SDL     ( 1704): onWindowFocusChanged(): true
+02-07 03:50:00.102 V/python  ( 1704): extracting kivymd/fonts/Roboto-ThinItalic.ttf
+02-07 03:50:00.106 I/vndksupport( 1704): sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.vbox86.so from the current namespace instead.
+02-07 03:50:00.110 D/        ( 1704): createUnique: call
+02-07 03:50:00.110 D/        ( 1704): HostConnection::get() New Host Connection established 0xdf5beee0, tid 1728
+02-07 03:50:00.111 V/python  ( 1704): extracting kivymd/fonts/Roboto-Italic.ttf
+02-07 03:50:00.116 D/        ( 1704): HostComposition ext GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_gles_max_version_3_1 
+02-07 03:50:00.117 V/python  ( 1704): extracting kivymd/fonts/Roboto-MediumItalic.ttf
+02-07 03:50:00.120 E/eglCodecCommon( 1704): goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+02-07 03:50:00.124 V/python  ( 1704): extracting kivymd/fonts/Roboto-BoldItalic.ttf
+02-07 03:50:00.129 V/python  ( 1704): extracting kivymd/fonts/Roboto-Thin.ttf
+02-07 03:50:00.133 V/python  ( 1704): extracting kivymd/fonts/Roboto-Black.ttf
+02-07 03:50:00.138 V/python  ( 1704): extracting kivymd/fonts/Roboto-LightItalic.ttf
+02-07 03:50:00.144 V/python  ( 1704): extracting kivymd/fonts/Roboto-Medium.ttf
+02-07 03:50:00.150 V/python  ( 1704): extracting kivymd/fonts/materialdesignicons-webfont.ttf
+02-07 03:50:00.173 V/python  ( 1704): extracting kivymd/toast/
+02-07 03:50:00.174 V/python  ( 1704): extracting kivymd/toast/__init__.pyc
+02-07 03:50:00.174 V/python  ( 1704): extracting kivymd/toast/kivytoast/
+02-07 03:50:00.174 V/python  ( 1704): extracting kivymd/toast/kivytoast/__init__.pyc
+02-07 03:50:00.175 V/python  ( 1704): extracting kivymd/toast/kivytoast/kivytoast.pyc
+02-07 03:50:00.175 V/python  ( 1704): extracting kivymd/toast/androidtoast/
+02-07 03:50:00.175 V/python  ( 1704): extracting kivymd/toast/androidtoast/__init__.pyc
+02-07 03:50:00.176 V/python  ( 1704): extracting kivymd/toast/androidtoast/androidtoast.pyc
+02-07 03:50:00.176 V/python  ( 1704): extracting kivymd/tools/
+02-07 03:50:00.176 V/python  ( 1704): extracting kivymd/tools/__init__.pyc
+02-07 03:50:00.177 V/python  ( 1704): extracting kivymd/tools/update_icons.pyc
+02-07 03:50:00.177 V/python  ( 1704): extracting kivymd/tools/packaging/
+02-07 03:50:00.177 V/python  ( 1704): extracting kivymd/tools/packaging/__init__.pyc
+02-07 03:50:00.177 V/python  ( 1704): extracting kivymd/tools/packaging/pyinstaller/
+02-07 03:50:00.178 V/python  ( 1704): extracting kivymd/tools/packaging/pyinstaller/__init__.pyc
+02-07 03:50:00.178 V/python  ( 1704): extracting kivymd/tools/packaging/pyinstaller/hook-kivymd.pyc
+02-07 03:50:00.178 V/python  ( 1704): extracting kivymd/utils/
+02-07 03:50:00.178 V/python  ( 1704): extracting kivymd/utils/fpsmonitor.pyc
+02-07 03:50:00.179 V/python  ( 1704): extracting kivymd/utils/cropimage.pyc
+02-07 03:50:00.179 V/python  ( 1704): extracting kivymd/utils/__init__.pyc
+02-07 03:50:00.179 V/python  ( 1704): extracting kivymd/utils/fitimage.pyc
+02-07 03:50:00.180 V/python  ( 1704): extracting kivymd/utils/asynckivy.pyc
+02-07 03:50:00.181 V/python  ( 1704): extracting kivymd/images/
+02-07 03:50:00.181 V/python  ( 1704): extracting kivymd/images/rec_shadow-1.png
+02-07 03:50:00.184 V/python  ( 1704): extracting kivymd/images/round_shadow-2.png
+02-07 03:50:00.185 V/python  ( 1704): extracting kivymd/images/rec_shadow.atlas
+02-07 03:50:00.186 V/python  ( 1704): extracting kivymd/images/kivymd_logo.png
+02-07 03:50:00.188 V/python  ( 1704): extracting kivymd/images/rec_st_shadow-2.png
+02-07 03:50:00.189 V/python  ( 1704): extracting kivymd/images/quad_shadow-0.png
+02-07 03:50:00.191 V/python  ( 1704): extracting kivymd/images/round_shadow-0.png
+02-07 03:50:00.193 V/python  ( 1704): extracting kivymd/images/quad_shadow.atlas
+02-07 03:50:00.193 V/python  ( 1704): extracting kivymd/images/kivy-logo-white-512.png
+02-07 03:50:00.196 V/python  ( 1704): extracting kivymd/images/round_shadow.atlas
+02-07 03:50:00.197 V/python  ( 1704): extracting kivymd/images/kivymd_alpha.png
+02-07 03:50:00.200 V/python  ( 1704): extracting kivymd/images/round_shadow-1.png
+02-07 03:50:00.202 V/python  ( 1704): extracting kivymd/images/rec_st_shadow.atlas
+02-07 03:50:00.203 V/python  ( 1704): extracting kivymd/images/rec_st_shadow-0.png
+02-07 03:50:00.204 V/python  ( 1704): extracting kivymd/images/rec_shadow-0.png
+02-07 03:50:00.206 V/python  ( 1704): extracting kivymd/images/folder.png
+02-07 03:50:00.208 V/python  ( 1704): extracting kivymd/images/rec_st_shadow-1.png
+02-07 03:50:00.209 V/python  ( 1704): extracting kivymd/images/kivymd_512.png
+02-07 03:50:00.211 V/python  ( 1704): extracting kivymd/images/quad_shadow-1.png
+02-07 03:50:00.212 V/python  ( 1704): extracting kivymd/images/quad_shadow-2.png
+02-07 03:50:00.213 V/python  ( 1704): extracting kivymd/images/transparent.png
+02-07 03:50:00.213 V/python  ( 1704): extracting kivymd/uix/
+02-07 03:50:00.213 V/python  ( 1704): extracting kivymd/uix/slider.pyc
+02-07 03:50:00.214 V/python  ( 1704): extracting kivymd/uix/boxlayout.pyc
+02-07 03:50:00.215 V/python  ( 1704): extracting kivymd/uix/stacklayout.pyc
+02-07 03:50:00.215 V/python  ( 1704): extracting kivymd/uix/bottomsheet.pyc
+02-07 03:50:00.216 V/python  ( 1704): extracting kivymd/uix/button.pyc
+02-07 03:50:00.216 V/python  ( 1704): extracting kivymd/uix/navigationdrawer.pyc
+02-07 03:50:00.217 V/python  ( 1704): extracting kivymd/uix/screen.pyc
+02-07 03:50:00.217 V/python  ( 1704): extracting kivymd/uix/textfield.pyc
+02-07 03:50:00.217 V/python  ( 1704): extracting kivymd/uix/tooltip.pyc
+02-07 03:50:00.218 V/python  ( 1704): extracting kivymd/uix/tab.pyc
+02-07 03:50:00.218 V/python  ( 1704): extracting kivymd/uix/expansionpanel.pyc
+02-07 03:50:00.219 V/python  ( 1704): extracting kivymd/uix/menu.pyc
+02-07 03:50:00.220 V/python  ( 1704): extracting kivymd/uix/taptargetview.pyc
+02-07 03:50:00.220 V/python  ( 1704): extracting kivymd/uix/datatables.pyc
+02-07 03:50:00.221 V/python  ( 1704): extracting kivymd/uix/dialog.pyc
+02-07 03:50:00.222 V/python  ( 1704): extracting kivymd/uix/card.pyc
+02-07 03:50:00.222 V/python  ( 1704): extracting kivymd/uix/bottomnavigation.pyc
+02-07 03:50:00.223 V/python  ( 1704): extracting kivymd/uix/context_menu.pyc
+02-07 03:50:00.223 V/python  ( 1704): extracting kivymd/uix/selectioncontrol.pyc
+02-07 03:50:00.223 V/python  ( 1704): extracting kivymd/uix/list.pyc
+02-07 03:50:00.224 V/python  ( 1704): extracting kivymd/uix/__init__.pyc
+02-07 03:50:00.224 V/python  ( 1704): extracting kivymd/uix/spinner.pyc
+02-07 03:50:00.224 V/python  ( 1704): extracting kivymd/uix/backdrop.pyc
+02-07 03:50:00.225 V/python  ( 1704): extracting kivymd/uix/snackbar.pyc
+02-07 03:50:00.225 V/python  ( 1704): extracting kivymd/uix/refreshlayout.pyc
+02-07 03:50:00.225 V/python  ( 1704): extracting kivymd/uix/filemanager.pyc
+02-07 03:50:00.226 V/python  ( 1704): extracting kivymd/uix/progressloader.pyc
+02-07 03:50:00.226 V/python  ( 1704): extracting kivymd/uix/imagelist.pyc
+02-07 03:50:00.226 V/python  ( 1704): extracting kivymd/uix/progressbar.pyc
+02-07 03:50:00.226 V/python  ( 1704): extracting kivymd/uix/gridlayout.pyc
+02-07 03:50:00.227 V/python  ( 1704): extracting kivymd/uix/picker.pyc
+02-07 03:50:00.227 V/python  ( 1704): extracting kivymd/uix/dropdownitem.pyc
+02-07 03:50:00.227 V/python  ( 1704): extracting kivymd/uix/chip.pyc
+02-07 03:50:00.228 V/python  ( 1704): extracting kivymd/uix/floatlayout.pyc
+02-07 03:50:00.228 V/python  ( 1704): extracting kivymd/uix/useranimationcard.pyc
+02-07 03:50:00.228 V/python  ( 1704): extracting kivymd/uix/label.pyc
+02-07 03:50:00.229 V/python  ( 1704): extracting kivymd/uix/banner.pyc
+02-07 03:50:00.229 V/python  ( 1704): extracting kivymd/uix/toolbar.pyc
+02-07 03:50:00.229 V/python  ( 1704): extracting kivymd/uix/behaviors/
+02-07 03:50:00.229 V/python  ( 1704): extracting kivymd/uix/behaviors/backgroundcolorbehavior.pyc
+02-07 03:50:00.229 V/python  ( 1704): extracting kivymd/uix/behaviors/ripplebehavior.pyc
+02-07 03:50:00.230 V/python  ( 1704): extracting kivymd/uix/behaviors/hover_behavior.pyc
+02-07 03:50:00.230 V/python  ( 1704): extracting kivymd/uix/behaviors/focus_behavior.pyc
+02-07 03:50:00.230 V/python  ( 1704): extracting kivymd/uix/behaviors/magic_behavior.pyc
+02-07 03:50:00.230 V/python  ( 1704): extracting kivymd/uix/behaviors/elevation.pyc
+02-07 03:50:00.231 V/python  ( 1704): extracting kivymd/uix/behaviors/__init__.pyc
+02-07 03:50:00.231 V/python  ( 1704): extracting kivymd/uix/behaviors/touch_behavior.pyc
+02-07 03:50:00.231 V/python  ( 1704): extracting kivymd/stiffscroll/
+02-07 03:50:00.232 V/python  ( 1704): extracting kivymd/stiffscroll/__init__.pyc
+02-07 03:50:00.232 V/python  ( 1704): extracting test programs/
+02-07 03:50:00.232 V/python  ( 1704): extracting test programs/test circle.pyc
+02-07 03:50:00.232 V/python  ( 1704): extracting test programs/test searching animation.pyc
+02-07 03:50:00.233 V/python  ( 1704): extracting _python_bundle/
+02-07 03:50:00.233 V/python  ( 1704): extracting _python_bundle/stdlib.zip
+02-07 03:50:00.300 V/python  ( 1704): extracting _python_bundle/modules/
+02-07 03:50:00.300 V/python  ( 1704): extracting _python_bundle/modules/unicodedata.cpython-38.so
+02-07 03:50:00.319 V/python  ( 1704): extracting _python_bundle/modules/_testmultiphase.cpython-38.so
+02-07 03:50:00.321 V/python  ( 1704): extracting _python_bundle/modules/_bisect.cpython-38.so
+02-07 03:50:00.321 V/python  ( 1704): extracting _python_bundle/modules/_decimal.cpython-38.so
+02-07 03:50:00.327 V/python  ( 1704): extracting _python_bundle/modules/resource.cpython-38.so
+02-07 03:50:00.327 V/python  ( 1704): extracting _python_bundle/modules/_posixsubprocess.cpython-38.so
+02-07 03:50:00.327 V/python  ( 1704): extracting _python_bundle/modules/syslog.cpython-38.so
+02-07 03:50:00.327 V/python  ( 1704): extracting _python_bundle/modules/_codecs_iso2022.cpython-38.so
+02-07 03:50:00.327 V/python  ( 1704): extracting _python_bundle/modules/_xxtestfuzz.cpython-38.so
+02-07 03:50:00.332 V/python  ( 1704): extracting _python_bundle/modules/_testcapi.cpython-38.so
+02-07 03:50:00.334 V/python  ( 1704): extracting _python_bundle/modules/_statistics.cpython-38.so
+02-07 03:50:00.335 V/python  ( 1704): extracting _python_bundle/modules/_asyncio.cpython-38.so
+02-07 03:50:00.336 V/python  ( 1704): extracting _python_bundle/modules/_testimportmultiple.cpython-38.so
+02-07 03:50:00.337 V/python  ( 1704): extracting _python_bundle/modules/_sha512.cpython-38.so
+02-07 03:50:00.339 V/python  ( 1704): extracting _python_bundle/modules/xxlimited.cpython-38.so
+02-07 03:50:00.352 V/python  ( 1704): extracting _python_bundle/modules/_sha256.cpython-38.so
+02-07 03:50:00.353 V/python  ( 1704): extracting _python_bundle/modules/_xxsubinterpreters.cpython-38.so
+02-07 03:50:00.355 V/python  ( 1704): extracting _python_bundle/modules/_csv.cpython-38.so
+02-07 03:50:00.356 V/python  ( 1704): extracting _python_bundle/modules/_heapq.cpython-38.so
+02-07 03:50:00.357 V/python  ( 1704): extracting _python_bundle/modules/_codecs_kr.cpython-38.so
+02-07 03:50:00.361 V/python  ( 1704): extracting _python_bundle/modules/_opcode.cpython-38.so
+02-07 03:50:00.362 V/python  ( 1704): extracting _python_bundle/modules/_datetime.cpython-38.so
+02-07 03:50:00.364 V/python  ( 1704): extracting _python_bundle/modules/_md5.cpython-38.so
+02-07 03:50:00.365 V/python  ( 1704): extracting _python_bundle/modules/_contextvars.cpython-38.so
+02-07 03:50:00.365 V/python  ( 1704): extracting _python_bundle/modules/cmath.cpython-38.so
+02-07 03:50:00.366 V/python  ( 1704): extracting _python_bundle/modules/_sysconfigdata__linux_.pyc
+02-07 03:50:00.367 V/python  ( 1704): extracting _python_bundle/modules/_sha3.cpython-38.so
+02-07 03:50:00.368 V/python  ( 1704): extracting _python_bundle/modules/_queue.cpython-38.so
+02-07 03:50:00.369 V/python  ( 1704): extracting _python_bundle/modules/_sha1.cpython-38.so
+02-07 03:50:00.370 V/python  ( 1704): extracting _python_bundle/modules/fcntl.cpython-38.so
+02-07 03:50:00.371 V/python  ( 1704): extracting _python_bundle/modules/_ctypes_test.cpython-38.so
+02-07 03:50:00.372 V/python  ( 1704): extracting _python_bundle/modules/_multibytecodec.cpython-38.so
+02-07 03:50:00.373 V/python  ( 1704): extracting _python_bundle/modules/array.cpython-38.so
+02-07 03:50:00.374 V/python  ( 1704): extracting _python_bundle/modules/audioop.cpython-38.so
+02-07 03:50:00.376 V/python  ( 1704): extracting _python_bundle/modules/_hashlib.cpython-38.so
+02-07 03:50:00.378 V/python  ( 1704): extracting _python_bundle/modules/_multiprocessing.cpython-38.so
+02-07 03:50:00.379 V/python  ( 1704): extracting _python_bundle/modules/binascii.cpython-38.so
+02-07 03:50:00.381 V/python  ( 1704): extracting _python_bundle/modules/_testbuffer.cpython-38.so
+02-07 03:50:00.383 V/python  ( 1704): extracting _python_bundle/modules/_socket.cpython-38.so
+02-07 03:50:00.385 V/python  ( 1704): extracting _python_bundle/modules/pyexpat.cpython-38.so
+02-07 03:50:00.389 V/python  ( 1704): extracting _python_bundle/modules/select.cpython-38.so
+02-07 03:50:00.391 V/python  ( 1704): extracting _python_bundle/modules/_ctypes.cpython-38.so
+02-07 03:50:00.393 V/python  ( 1704): extracting _python_bundle/modules/_codecs_tw.cpython-38.so
+02-07 03:50:00.397 V/python  ( 1704): extracting _python_bundle/modules/_testinternalcapi.cpython-38.so
+02-07 03:50:00.397 V/python  ( 1704): extracting _python_bundle/modules/_elementtree.cpython-38.so
+02-07 03:50:00.400 V/python  ( 1704): extracting _python_bundle/modules/ossaudiodev.cpython-38.so
+02-07 03:50:00.401 V/python  ( 1704): extracting _python_bundle/modules/_lsprof.cpython-38.so
+02-07 03:50:00.403 V/python  ( 1704): extracting _python_bundle/modules/_codecs_jp.cpython-38.so
+02-07 03:50:00.406 V/python  ( 1704): extracting _python_bundle/modules/termios.cpython-38.so
+02-07 03:50:00.408 V/python  ( 1704): extracting _python_bundle/modules/math.cpython-38.so
+02-07 03:50:00.409 V/python  ( 1704): extracting _python_bundle/modules/_codecs_cn.cpython-38.so
+02-07 03:50:00.418 V/python  ( 1704): extracting _python_bundle/modules/_blake2.cpython-38.so
+02-07 03:50:00.422 V/python  ( 1704): extracting _python_bundle/modules/mmap.cpython-38.so
+02-07 03:50:00.423 V/python  ( 1704): extracting _python_bundle/modules/_ssl.cpython-38.so
+02-07 03:50:00.427 V/python  ( 1704): extracting _python_bundle/modules/_codecs_hk.cpython-38.so
+02-07 03:50:00.429 V/python  ( 1704): extracting _python_bundle/modules/zlib.cpython-38.so
+02-07 03:50:00.432 V/python  ( 1704): extracting _python_bundle/modules/_random.cpython-38.so
+02-07 03:50:00.433 V/python  ( 1704): extracting _python_bundle/modules/_sqlite3.cpython-38.so
+02-07 03:50:00.434 V/python  ( 1704): extracting _python_bundle/modules/_pickle.cpython-38.so
+02-07 03:50:00.436 V/python  ( 1704): extracting _python_bundle/modules/_json.cpython-38.so
+02-07 03:50:00.438 V/python  ( 1704): extracting _python_bundle/modules/parser.cpython-38.so
+02-07 03:50:00.439 V/python  ( 1704): extracting _python_bundle/modules/_struct.cpython-38.so
+02-07 03:50:00.441 V/python  ( 1704): extracting _python_bundle/site-packages/
+02-07 03:50:00.448 V/python  ( 1704): extracting _python_bundle/site-packages/six.pyc
+02-07 03:50:00.449 V/python  ( 1704): extracting _python_bundle/site-packages/jnius_config.pyc
+02-07 03:50:00.449 V/python  ( 1704): extracting _python_bundle/site-packages/setup_sdist.pyc
+02-07 03:50:00.450 V/python  ( 1704): extracting _python_bundle/site-packages/easy_install.pyc
+02-07 03:50:00.450 V/python  ( 1704): extracting _python_bundle/site-packages/android/
+02-07 03:50:00.451 V/python  ( 1704): extracting _python_bundle/site-packages/android/storage.pyc
+02-07 03:50:00.451 V/python  ( 1704): extracting _python_bundle/site-packages/android/permissions.pyc
+02-07 03:50:00.452 V/python  ( 1704): extracting _python_bundle/site-packages/android/loadingscreen.pyc
+02-07 03:50:00.452 V/python  ( 1704): extracting _python_bundle/site-packages/android/billing.pyc
+02-07 03:50:00.453 V/python  ( 1704): extracting _python_bundle/site-packages/android/activity.pyc
+02-07 03:50:00.453 V/python  ( 1704): extracting _python_bundle/site-packages/android/broadcast.pyc
+02-07 03:50:00.453 V/python  ( 1704): extracting _python_bundle/site-packages/android/_android_billing.so
+02-07 03:50:00.455 V/python  ( 1704): extracting _python_bundle/site-packages/android/__init__.pyc
+02-07 03:50:00.455 V/python  ( 1704): extracting _python_bundle/site-packages/android/mixer.pyc
+02-07 03:50:00.462 V/python  ( 1704): extracting _python_bundle/site-packages/android/_ctypes_library_finder.pyc
+02-07 03:50:00.462 V/python  ( 1704): extracting _python_bundle/site-packages/android/runnable.pyc
+02-07 03:50:00.463 V/python  ( 1704): extracting _python_bundle/site-packages/android/_android.so
+02-07 03:50:00.466 V/python  ( 1704): extracting _python_bundle/site-packages/android/config.pyc
+02-07 03:50:00.467 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/
+02-07 03:50:00.467 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/utils.pyc
+02-07 03:50:00.467 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/__init__.pyc
+02-07 03:50:00.468 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/
+02-07 03:50:00.468 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/temperature.pyc
+02-07 03:50:00.468 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/call.pyc
+02-07 03:50:00.469 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/proximity.pyc
+02-07 03:50:00.469 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/camera.pyc
+02-07 03:50:00.470 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/battery.pyc
+02-07 03:50:00.470 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/stt.pyc
+02-07 03:50:00.471 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/flash.pyc
+02-07 03:50:00.471 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/gyroscope.pyc
+02-07 03:50:00.472 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/barometer.pyc
+02-07 03:50:00.472 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/humidity.pyc
+02-07 03:50:00.472 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/irblaster.pyc
+02-07 03:50:00.473 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/compass.pyc
+02-07 03:50:00.473 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/sms.pyc
+02-07 03:50:00.473 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/cpu.pyc
+02-07 03:50:00.488 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/screenshot.pyc
+02-07 03:50:00.488 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/notification.pyc
+02-07 03:50:00.489 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/light.pyc
+02-07 03:50:00.489 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/orientation.pyc
+02-07 03:50:00.490 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/email.pyc
+02-07 03:50:00.490 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/audio.pyc
+02-07 03:50:00.490 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/__init__.pyc
+02-07 03:50:00.490 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/uniqueid.pyc
+02-07 03:50:00.491 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/processors.pyc
+02-07 03:50:00.491 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/brightness.pyc
+02-07 03:50:00.492 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/filechooser.pyc
+02-07 03:50:00.492 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/gps.pyc
+02-07 03:50:00.492 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/gravity.pyc
+02-07 03:50:00.492 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/wifi.pyc
+02-07 03:50:00.492 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/spatialorientation.pyc
+02-07 03:50:00.493 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/tts.pyc
+02-07 03:50:00.493 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/keystore.pyc
+02-07 03:50:00.493 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/bluetooth.pyc
+02-07 03:50:00.493 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/storagepath.pyc
+02-07 03:50:00.493 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/accelerometer.pyc
+02-07 03:50:00.494 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/facades/vibrator.pyc
+02-07 03:50:00.494 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/
+02-07 03:50:00.494 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/__init__.pyc
+02-07 03:50:00.494 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/
+02-07 03:50:00.494 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/battery.pyc
+02-07 03:50:00.495 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/cpu.pyc
+02-07 03:50:00.500 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/screenshot.pyc
+02-07 03:50:00.500 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/notification.pyc
+02-07 03:50:00.501 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/orientation.pyc
+02-07 03:50:00.502 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/email.pyc
+02-07 03:50:00.502 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/__init__.pyc
+02-07 03:50:00.503 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/uniqueid.pyc
+02-07 03:50:00.503 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/processors.pyc
+02-07 03:50:00.503 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/brightness.pyc
+02-07 03:50:00.503 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/filechooser.pyc
+02-07 03:50:00.503 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/wifi.pyc
+02-07 03:50:00.508 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/tts.pyc
+02-07 03:50:00.510 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/keystore.pyc
+02-07 03:50:00.511 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/storagepath.pyc
+02-07 03:50:00.511 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/linux/accelerometer.pyc
+02-07 03:50:00.512 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/
+02-07 03:50:00.512 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/battery.pyc
+02-07 03:50:00.512 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/cpu.pyc
+02-07 03:50:00.513 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/screenshot.pyc
+02-07 03:50:00.513 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/notification.pyc
+02-07 03:50:00.513 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/email.pyc
+02-07 03:50:00.514 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/audio.pyc
+02-07 03:50:00.514 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/__init__.pyc
+02-07 03:50:00.514 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/uniqueid.pyc
+02-07 03:50:00.515 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/filechooser.pyc
+02-07 03:50:00.515 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/wifi.pyc
+02-07 03:50:00.515 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/tts.pyc
+02-07 03:50:00.516 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/keystore.pyc
+02-07 03:50:00.516 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/storagepath.pyc
+02-07 03:50:00.516 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/libs/
+02-07 03:50:00.516 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/libs/batterystatus.pyc
+02-07 03:50:00.516 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/libs/wifi_defs.pyc
+02-07 03:50:00.517 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/libs/__init__.pyc
+02-07 03:50:00.517 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/libs/win_api_defs.pyc
+02-07 03:50:00.517 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/win/libs/balloontip.pyc
+02-07 03:50:00.518 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/
+02-07 03:50:00.518 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/temperature.pyc
+02-07 03:50:00.518 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/call.pyc
+02-07 03:50:00.519 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/proximity.pyc
+02-07 03:50:00.519 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/camera.pyc
+02-07 03:50:00.519 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/battery.pyc
+02-07 03:50:00.520 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/stt.pyc
+02-07 03:50:00.520 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/flash.pyc
+02-07 03:50:00.520 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/gyroscope.pyc
+02-07 03:50:00.521 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/barometer.pyc
+02-07 03:50:00.521 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/humidity.pyc
+02-07 03:50:00.521 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/irblaster.pyc
+02-07 03:50:00.521 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/compass.pyc
+02-07 03:50:00.521 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/sms.pyc
+02-07 03:50:00.522 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/notification.pyc
+02-07 03:50:00.523 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/light.pyc
+02-07 03:50:00.524 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/orientation.pyc
+02-07 03:50:00.524 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/email.pyc
+02-07 03:50:00.524 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/audio.pyc
+02-07 03:50:00.524 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/__init__.pyc
+02-07 03:50:00.525 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/uniqueid.pyc
+02-07 03:50:00.525 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/brightness.pyc
+02-07 03:50:00.525 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/filechooser.pyc
+02-07 03:50:00.526 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/gps.pyc
+02-07 03:50:00.526 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/gravity.pyc
+02-07 03:50:00.527 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/spatialorientation.pyc
+02-07 03:50:00.528 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/tts.pyc
+02-07 03:50:00.528 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/keystore.pyc
+02-07 03:50:00.528 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/bluetooth.pyc
+02-07 03:50:00.529 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/storagepath.pyc
+02-07 03:50:00.529 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/accelerometer.pyc
+02-07 03:50:00.530 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/android/vibrator.pyc
+02-07 03:50:00.530 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/
+02-07 03:50:00.530 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/call.pyc
+02-07 03:50:00.531 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/camera.pyc
+02-07 03:50:00.531 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/battery.pyc
+02-07 03:50:00.531 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/flash.pyc
+02-07 03:50:00.532 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/gyroscope.pyc
+02-07 03:50:00.532 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/barometer.pyc
+02-07 03:50:00.532 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/compass.pyc
+02-07 03:50:00.533 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/sms.pyc
+02-07 03:50:00.533 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/email.pyc
+02-07 03:50:00.533 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/__init__.pyc
+02-07 03:50:00.533 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/uniqueid.pyc
+02-07 03:50:00.533 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/brightness.pyc
+02-07 03:50:00.533 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/filechooser.pyc
+02-07 03:50:00.534 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/gps.pyc
+02-07 03:50:00.534 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/gravity.pyc
+02-07 03:50:00.534 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/spatialorientation.pyc
+02-07 03:50:00.534 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/tts.pyc
+02-07 03:50:00.534 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/keystore.pyc
+02-07 03:50:00.535 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/storagepath.pyc
+02-07 03:50:00.535 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/accelerometer.pyc
+02-07 03:50:00.535 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/ios/vibrator.pyc
+02-07 03:50:00.535 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/
+02-07 03:50:00.535 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/battery.pyc
+02-07 03:50:00.535 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/cpu.pyc
+02-07 03:50:00.536 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/screenshot.pyc
+02-07 03:50:00.536 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/notification.pyc
+02-07 03:50:00.536 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/email.pyc
+02-07 03:50:00.537 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/audio.pyc
+02-07 03:50:00.537 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/__init__.pyc
+02-07 03:50:00.537 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/uniqueid.pyc
+02-07 03:50:00.537 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/filechooser.pyc
+02-07 03:50:00.537 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/wifi.pyc
+02-07 03:50:00.538 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/tts.pyc
+02-07 03:50:00.538 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/keystore.pyc
+02-07 03:50:00.538 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/bluetooth.pyc
+02-07 03:50:00.538 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/storagepath.pyc
+02-07 03:50:00.539 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/accelerometer.pyc
+02-07 03:50:00.540 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/libs/
+02-07 03:50:00.540 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/libs/osx_paths.pyc
+02-07 03:50:00.541 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/libs/osx_motion_sensor.pyc
+02-07 03:50:00.541 V/python  ( 1704): extracting _python_bundle/site-packages/plyer/platforms/macosx/libs/__init__.pyc
+02-07 03:50:00.542 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/
+02-07 03:50:00.542 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/REQUESTED
+02-07 03:50:00.543 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/RECORD
+02-07 03:50:00.543 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/METADATA
+02-07 03:50:00.544 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/top_level.txt
+02-07 03:50:00.545 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/LICENSE
+02-07 03:50:00.545 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/WHEEL
+02-07 03:50:00.545 I/Choreographer(  525): Skipped 52 frames!  The application may be doing too much work on its main thread.
+02-07 03:50:00.556 V/python  ( 1704): extracting _python_bundle/site-packages/certifi-2020.12.5.dist-info/INSTALLER
+02-07 03:50:00.556 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/
+02-07 03:50:00.556 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/SOURCES.txt
+02-07 03:50:00.557 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/top_level.txt
+02-07 03:50:00.557 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/PKG-INFO
+02-07 03:50:00.557 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/zip-safe
+02-07 03:50:00.557 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/entry_points.txt
+02-07 03:50:00.558 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/dependency_links.txt
+02-07 03:50:00.558 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools-40.9.0-py3.8.egg-info/requires.txt
+02-07 03:50:00.558 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/
+02-07 03:50:00.558 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/REQUESTED
+02-07 03:50:00.558 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/RECORD
+02-07 03:50:00.559 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/METADATA
+02-07 03:50:00.560 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/top_level.txt
+02-07 03:50:00.560 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/LICENSE
+02-07 03:50:00.561 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/WHEEL
+02-07 03:50:00.561 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd-0.104.1.dist-info/INSTALLER
+02-07 03:50:00.562 V/python  ( 1704): extracting _python_bundle/site-packages/usr/local/
+02-07 03:50:00.562 V/python  ( 1704): extracting _python_bundle/site-packages/usr/local/bin/
+02-07 03:50:00.562 V/python  ( 1704): extracting _python_bundle/site-packages/usr/local/bin/easy_install-3.8
+02-07 03:50:00.562 V/python  ( 1704): extracting _python_bundle/site-packages/usr/local/bin/easy_install
+02-07 03:50:00.562 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/
+02-07 03:50:00.563 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/env.pyc
+02-07 03:50:00.563 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/jnius.so
+02-07 03:50:00.576 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/reflect.pyc
+02-07 03:50:00.576 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/__init__.pyc
+02-07 03:50:00.578 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/signatures.pyc
+02-07 03:50:00.578 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/src/org/
+02-07 03:50:00.579 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/src/org/jnius/
+02-07 03:50:00.579 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/src/org/jnius/NativeInvocationHandler.java
+02-07 03:50:00.579 V/python  ( 1704): extracting _python_bundle/site-packages/jnius/src/org/jnius/NativeInvocationHandler.class
+02-07 03:50:00.580 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/
+02-07 03:50:00.580 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/icon_definitions.pyc
+02-07 03:50:00.584 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/app.pyc
+02-07 03:50:00.584 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/factory_registers.pyc
+02-07 03:50:00.584 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/font_definitions.pyc
+02-07 03:50:00.585 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/theming.pyc
+02-07 03:50:00.585 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/__init__.pyc
+02-07 03:50:00.585 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/material_resources.pyc
+02-07 03:50:00.586 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/theming_dynamic_text.pyc
+02-07 03:50:00.586 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/color_definitions.pyc
+02-07 03:50:00.586 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/vendor/
+02-07 03:50:00.587 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/vendor/__init__.pyc
+02-07 03:50:00.587 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/vendor/circleLayout/
+02-07 03:50:00.588 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/vendor/circleLayout/__init__.pyc
+02-07 03:50:00.589 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/vendor/circularTimePicker/
+02-07 03:50:00.589 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/vendor/circularTimePicker/__init__.pyc
+02-07 03:50:00.590 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/
+02-07 03:50:00.590 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-Bold.ttf
+02-07 03:50:00.594 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-BlackItalic.ttf
+02-07 03:50:00.596 E/eglCodecCommon( 1085): goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+02-07 03:50:00.601 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-Regular.ttf
+02-07 03:50:00.606 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-Light.ttf
+02-07 03:50:00.610 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-ThinItalic.ttf
+02-07 03:50:00.615 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-Italic.ttf
+02-07 03:50:00.622 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-MediumItalic.ttf
+02-07 03:50:00.627 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-BoldItalic.ttf
+02-07 03:50:00.631 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-Thin.ttf
+02-07 03:50:00.635 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-Black.ttf
+02-07 03:50:00.639 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-LightItalic.ttf
+02-07 03:50:00.644 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/Roboto-Medium.ttf
+02-07 03:50:00.649 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/fonts/materialdesignicons-webfont.ttf
+02-07 03:50:00.672 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/
+02-07 03:50:00.672 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/__init__.pyc
+02-07 03:50:00.673 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/kivytoast/
+02-07 03:50:00.673 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/kivytoast/__init__.pyc
+02-07 03:50:00.673 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/kivytoast/kivytoast.pyc
+02-07 03:50:00.674 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/androidtoast/
+02-07 03:50:00.674 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/androidtoast/__init__.pyc
+02-07 03:50:00.674 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/toast/androidtoast/androidtoast.pyc
+02-07 03:50:00.675 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/
+02-07 03:50:00.675 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/__init__.pyc
+02-07 03:50:00.675 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/update_icons.pyc
+02-07 03:50:00.675 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/packaging/
+02-07 03:50:00.676 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/packaging/__init__.pyc
+02-07 03:50:00.676 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/packaging/pyinstaller/
+02-07 03:50:00.676 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/packaging/pyinstaller/__init__.pyc
+02-07 03:50:00.677 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/tools/packaging/pyinstaller/hook-kivymd.pyc
+02-07 03:50:00.677 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/utils/
+02-07 03:50:00.677 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/utils/fpsmonitor.pyc
+02-07 03:50:00.677 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/utils/cropimage.pyc
+02-07 03:50:00.678 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/utils/__init__.pyc
+02-07 03:50:00.678 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/utils/fitimage.pyc
+02-07 03:50:00.678 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/utils/asynckivy.pyc
+02-07 03:50:00.678 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/
+02-07 03:50:00.679 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/rec_shadow-1.png
+02-07 03:50:00.681 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/round_shadow-2.png
+02-07 03:50:00.682 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/rec_shadow.atlas
+02-07 03:50:00.682 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/kivymd_logo.png
+02-07 03:50:00.694 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/rec_st_shadow-2.png
+02-07 03:50:00.712 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/quad_shadow-0.png
+02-07 03:50:00.713 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/round_shadow-0.png
+02-07 03:50:00.715 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/quad_shadow.atlas
+02-07 03:50:00.716 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/kivy-logo-white-512.png
+02-07 03:50:00.721 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/round_shadow.atlas
+02-07 03:50:00.721 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/kivymd_alpha.png
+02-07 03:50:00.726 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/round_shadow-1.png
+02-07 03:50:00.728 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/rec_st_shadow.atlas
+02-07 03:50:00.728 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/rec_st_shadow-0.png
+02-07 03:50:00.730 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/rec_shadow-0.png
+02-07 03:50:00.732 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/folder.png
+02-07 03:50:00.734 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/rec_st_shadow-1.png
+02-07 03:50:00.736 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/kivymd_512.png
+02-07 03:50:00.738 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/quad_shadow-1.png
+02-07 03:50:00.739 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/quad_shadow-2.png
+02-07 03:50:00.740 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/images/transparent.png
+02-07 03:50:00.740 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/
+02-07 03:50:00.740 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/slider.pyc
+02-07 03:50:00.741 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/boxlayout.pyc
+02-07 03:50:00.741 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/stacklayout.pyc
+02-07 03:50:00.742 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/bottomsheet.pyc
+02-07 03:50:00.742 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/button.pyc
+02-07 03:50:00.743 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/navigationdrawer.pyc
+02-07 03:50:00.743 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/screen.pyc
+02-07 03:50:00.744 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/textfield.pyc
+02-07 03:50:00.744 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/tooltip.pyc
+02-07 03:50:00.744 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/tab.pyc
+02-07 03:50:00.745 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/expansionpanel.pyc
+02-07 03:50:00.745 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/menu.pyc
+02-07 03:50:00.745 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/taptargetview.pyc
+02-07 03:50:00.745 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/datatables.pyc
+02-07 03:50:00.746 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/dialog.pyc
+02-07 03:50:00.746 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/card.pyc
+02-07 03:50:00.746 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/bottomnavigation.pyc
+02-07 03:50:00.747 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/context_menu.pyc
+02-07 03:50:00.748 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/selectioncontrol.pyc
+02-07 03:50:00.749 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/list.pyc
+02-07 03:50:00.750 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/__init__.pyc
+02-07 03:50:00.752 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/spinner.pyc
+02-07 03:50:00.752 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/backdrop.pyc
+02-07 03:50:00.753 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/snackbar.pyc
+02-07 03:50:00.753 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/refreshlayout.pyc
+02-07 03:50:00.754 I/ActivityManager(  525): Displayed org.test.myapp/org.kivy.android.PythonActivity: +1s134ms
+02-07 03:50:00.754 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/filemanager.pyc
+02-07 03:50:00.754 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/progressloader.pyc
+02-07 03:50:00.755 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/imagelist.pyc
+02-07 03:50:00.755 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/progressbar.pyc
+02-07 03:50:00.755 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/gridlayout.pyc
+02-07 03:50:00.756 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/picker.pyc
+02-07 03:50:00.756 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/dropdownitem.pyc
+02-07 03:50:00.756 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/chip.pyc
+02-07 03:50:00.757 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/floatlayout.pyc
+02-07 03:50:00.757 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/useranimationcard.pyc
+02-07 03:50:00.757 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/label.pyc
+02-07 03:50:00.757 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/banner.pyc
+02-07 03:50:00.758 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/toolbar.pyc
+02-07 03:50:00.758 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/
+02-07 03:50:00.758 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/backgroundcolorbehavior.pyc
+02-07 03:50:00.759 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/ripplebehavior.pyc
+02-07 03:50:00.759 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/hover_behavior.pyc
+02-07 03:50:00.760 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/focus_behavior.pyc
+02-07 03:50:00.760 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/magic_behavior.pyc
+02-07 03:50:00.760 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/elevation.pyc
+02-07 03:50:00.761 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/__init__.pyc
+02-07 03:50:00.761 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/uix/behaviors/touch_behavior.pyc
+02-07 03:50:00.762 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/stiffscroll/
+02-07 03:50:00.762 V/python  ( 1704): extracting _python_bundle/site-packages/kivymd/stiffscroll/__init__.pyc
+02-07 03:50:00.762 V/python  ( 1704): extracting _python_bundle/site-packages/Kivy-1.11.1-py3.8.egg-info/
+02-07 03:50:00.762 V/python  ( 1704): extracting _python_bundle/site-packages/Kivy-1.11.1-py3.8.egg-info/SOURCES.txt
+02-07 03:50:00.763 V/python  ( 1704): extracting _python_bundle/site-packages/Kivy-1.11.1-py3.8.egg-info/top_level.txt
+02-07 03:50:00.764 V/python  ( 1704): extracting _python_bundle/site-packages/Kivy-1.11.1-py3.8.egg-info/PKG-INFO
+02-07 03:50:00.765 V/python  ( 1704): extracting _python_bundle/site-packages/Kivy-1.11.1-py3.8.egg-info/dependency_links.txt
+02-07 03:50:00.765 V/python  ( 1704): extracting _python_bundle/site-packages/Kivy-1.11.1-py3.8.egg-info/requires.txt
+02-07 03:50:00.766 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/
+02-07 03:50:00.766 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_deprecation_warning.pyc
+02-07 03:50:00.767 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/ssl_support.pyc
+02-07 03:50:00.768 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/py33compat.pyc
+02-07 03:50:00.768 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/sandbox.pyc
+02-07 03:50:00.768 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/build_meta.pyc
+02-07 03:50:00.769 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/depends.pyc
+02-07 03:50:00.769 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/cli.exe
+02-07 03:50:00.772 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/pep425tags.pyc
+02-07 03:50:00.773 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/wheel.pyc
+02-07 03:50:00.773 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/gui.exe
+02-07 03:50:00.775 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/site-patch.pyc
+02-07 03:50:00.775 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/extension.pyc
+02-07 03:50:00.776 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/glibc.pyc
+02-07 03:50:00.776 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/py31compat.pyc
+02-07 03:50:00.776 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/gui-32.exe
+02-07 03:50:00.777 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/dist.pyc
+02-07 03:50:00.778 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/cli-32.exe
+02-07 03:50:00.779 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/unicode_utils.pyc
+02-07 03:50:00.779 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/script.tmpl
+02-07 03:50:00.780 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/cli-64.exe
+02-07 03:50:00.781 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/__init__.pyc
+02-07 03:50:00.782 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/gui-64.exe
+02-07 03:50:00.783 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/msvc.pyc
+02-07 03:50:00.784 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/py27compat.pyc
+02-07 03:50:00.784 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/namespaces.pyc
+02-07 03:50:00.784 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/version.pyc
+02-07 03:50:00.784 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/archive_util.pyc
+02-07 03:50:00.785 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/windows_support.pyc
+02-07 03:50:00.785 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/package_index.pyc
+02-07 03:50:00.785 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/launch.pyc
+02-07 03:50:00.785 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/glob.pyc
+02-07 03:50:00.786 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/script (dev).tmpl
+02-07 03:50:00.786 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/lib2to3_ex.pyc
+02-07 03:50:00.786 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/monkey.pyc
+02-07 03:50:00.787 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/dep_util.pyc
+02-07 03:50:00.787 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/config.pyc
+02-07 03:50:00.788 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/
+02-07 03:50:00.788 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/rotate.pyc
+02-07 03:50:00.789 D/NetworkMonitor/NetworkAgentInfo [WIFI () - 100](  525): PROBE_FALLBACK http://www.google.com/gen_204 time=4446ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Content-Type=[text/html; charset=UTF-8], Date=[Sun, 07 Feb 2021 03:50:00 GMT], Server=[gws], Set-Cookie=[1P_JAR=2021-02-07-03; expires=Tue, 09-Mar-2021 03:50:00 GMT; path=/; domain=.google.com; Secure], X-Android-Received-Millis=[1612669800789], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1612669798774], X-Frame-Options=[SAMEORIGIN], X-XSS-Protection=[0]}
+02-07 03:50:00.789 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/build_ext.pyc
+02-07 03:50:00.789 D/ConnectivityService(  525): NetworkAgentInfo [WIFI () - 100] validation passed
+02-07 03:50:00.790 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/sdist.pyc
+02-07 03:50:00.790 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/launcher manifest.xml
+02-07 03:50:00.792 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/bdist_wininst.pyc
+02-07 03:50:00.792 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/develop.pyc
+02-07 03:50:00.794 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/install_lib.pyc
+02-07 03:50:00.794 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/py36compat.pyc
+02-07 03:50:00.796 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/easy_install.pyc
+02-07 03:50:00.797 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/install_scripts.pyc
+02-07 03:50:00.798 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/build_clib.pyc
+02-07 03:50:00.798 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/egg_info.pyc
+02-07 03:50:00.798 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/test.pyc
+02-07 03:50:00.799 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/install_egg_info.pyc
+02-07 03:50:00.800 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/__init__.pyc
+02-07 03:50:00.800 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/setopt.pyc
+02-07 03:50:00.802 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/bdist_egg.pyc
+02-07 03:50:00.804 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/install.pyc
+02-07 03:50:00.805 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/register.pyc
+02-07 03:50:00.805 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/bdist_rpm.pyc
+02-07 03:50:00.805 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/saveopts.pyc
+02-07 03:50:00.805 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/upload_docs.pyc
+02-07 03:50:00.805 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/dist_info.pyc
+02-07 03:50:00.806 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/alias.pyc
+02-07 03:50:00.808 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/build_py.pyc
+02-07 03:50:00.809 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/command/upload.pyc
+02-07 03:50:00.809 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/
+02-07 03:50:00.809 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/six.pyc
+02-07 03:50:00.810 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/__init__.pyc
+02-07 03:50:00.810 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/pyparsing.pyc
+02-07 03:50:00.815 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/
+02-07 03:50:00.815 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/markers.pyc
+02-07 03:50:00.816 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/utils.pyc
+02-07 03:50:00.816 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/__about__.pyc
+02-07 03:50:00.817 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/__init__.pyc
+02-07 03:50:00.818 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/requirements.pyc
+02-07 03:50:00.818 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/version.pyc
+02-07 03:50:00.818 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/_compat.pyc
+02-07 03:50:00.818 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/_structures.pyc
+02-07 03:50:00.819 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/_vendor/packaging/specifiers.pyc
+02-07 03:50:00.819 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/extern/
+02-07 03:50:00.819 V/python  ( 1704): extracting _python_bundle/site-packages/setuptools/extern/__init__.pyc
+02-07 03:50:00.822 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/
+02-07 03:50:00.822 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/REQUESTED
+02-07 03:50:00.822 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/RECORD
+02-07 03:50:00.824 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/METADATA
+02-07 03:50:00.826 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/top_level.txt
+02-07 03:50:00.827 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/LICENSE
+02-07 03:50:00.827 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/WHEEL
+02-07 03:50:00.828 V/python  ( 1704): extracting _python_bundle/site-packages/plyer-2.0.0.dist-info/INSTALLER
+02-07 03:50:00.828 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/
+02-07 03:50:00.828 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/py31compat.pyc
+02-07 03:50:00.828 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/__init__.pyc
+02-07 03:50:00.831 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/
+02-07 03:50:00.832 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/appdirs.pyc
+02-07 03:50:00.833 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/six.pyc
+02-07 03:50:00.834 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/__init__.pyc
+02-07 03:50:00.834 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/pyparsing.pyc
+02-07 03:50:00.837 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/
+02-07 03:50:00.837 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/markers.pyc
+02-07 03:50:00.837 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/utils.pyc
+02-07 03:50:00.838 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/__about__.pyc
+02-07 03:50:00.838 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/__init__.pyc
+02-07 03:50:00.838 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/requirements.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/version.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/_compat.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/_structures.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/specifiers.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/extern/
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/pkg_resources/extern/__init__.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/setupconfig.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/event.pyc
+02-07 03:50:00.839 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/app.pyc
+02-07 03:50:00.844 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/metrics.pyc
+02-07 03:50:00.845 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/factory_registers.pyc
+02-07 03:50:00.846 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/_event.so
+02-07 03:50:00.849 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/compat.pyc
+02-07 03:50:00.850 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/_clock.so
+02-07 03:50:00.853 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/utils.pyc
+02-07 03:50:00.854 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/logger.pyc
+02-07 03:50:00.854 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/clock.pyc
+02-07 03:50:00.854 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/gesture.pyc
+02-07 03:50:00.855 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/support.pyc
+02-07 03:50:00.855 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/weakmethod.pyc
+02-07 03:50:00.855 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/vector.pyc
+02-07 03:50:00.855 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/animation.pyc
+02-07 03:50:00.856 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/parser.pyc
+02-07 03:50:00.856 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/loader.pyc
+02-07 03:50:00.857 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/resources.pyc
+02-07 03:50:00.857 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/factory.pyc
+02-07 03:50:00.857 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/__init__.pyc
+02-07 03:50:00.858 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/multistroke.pyc
+02-07 03:50:00.859 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/cache.pyc
+02-07 03:50:00.860 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/weakproxy.so
+02-07 03:50:00.862 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/context.pyc
+02-07 03:50:00.863 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/version.pyc
+02-07 03:50:00.863 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/base.pyc
+02-07 03:50:00.863 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/geometry.pyc
+02-07 03:50:00.863 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/interactive.pyc
+02-07 03:50:00.863 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/properties.so
+02-07 03:50:00.869 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/atlas.pyc
+02-07 03:50:00.869 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/config.pyc
+02-07 03:50:00.869 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/
+02-07 03:50:00.870 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/style.kv
+02-07 03:50:00.871 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/settings_kivy.json
+02-07 03:50:00.871 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/
+02-07 03:50:00.872 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-24.png
+02-07 03:50:00.873 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-256.png
+02-07 03:50:00.874 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-128.png
+02-07 03:50:00.874 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-16.png
+02-07 03:50:00.875 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-48.png
+02-07 03:50:00.875 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-64.png
+02-07 03:50:00.876 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-512.png
+02-07 03:50:00.877 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-32.png
+02-07 03:50:00.877 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/
+02-07 03:50:00.878 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/de.json
+02-07 03:50:00.878 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/en_US.json
+02-07 03:50:00.878 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/azerty.json
+02-07 03:50:00.878 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/fr_CH.json
+02-07 03:50:00.878 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/de_CH.json
+02-07 03:50:00.878 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/qwerty.json
+02-07 03:50:00.879 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/keyboards/qwertz.json
+02-07 03:50:00.879 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/fonts/
+02-07 03:50:00.879 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-Bold.ttf
+02-07 03:50:00.883 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-Regular.ttf
+02-07 03:50:00.889 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/fonts/RobotoMono-Regular.ttf
+02-07 03:50:00.894 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-Italic.ttf
+02-07 03:50:00.897 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-BoldItalic.ttf
+02-07 03:50:00.901 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/fonts/DejaVuSans.ttf
+02-07 03:50:00.914 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/glsl/
+02-07 03:50:00.915 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/glsl/default.png
+02-07 03:50:00.915 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/glsl/header.vs
+02-07 03:50:00.915 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/glsl/header.fs
+02-07 03:50:00.916 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/glsl/default.fs
+02-07 03:50:00.916 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/glsl/default.vs
+02-07 03:50:00.916 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/
+02-07 03:50:00.916 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/defaulttheme.atlas
+02-07 03:50:00.917 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/defaultshape.png
+02-07 03:50:00.917 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/testpattern.png
+02-07 03:50:00.917 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/defaulttheme-0.png
+02-07 03:50:00.919 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/image-loading.gif
+02-07 03:50:00.920 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/cursor.png
+02-07 03:50:00.920 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/data/images/background.jpg
+02-07 03:50:00.920 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/
+02-07 03:50:00.921 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/recorder.pyc
+02-07 03:50:00.921 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/showborder.pyc
+02-07 03:50:00.930 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/console.pyc
+02-07 03:50:00.932 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/joycursor.pyc
+02-07 03:50:00.933 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/screen.pyc
+02-07 03:50:00.933 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/touchring.pyc
+02-07 03:50:00.934 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/__init__.pyc
+02-07 03:50:00.935 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/_webdebugger.pyc
+02-07 03:50:00.939 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/monitor.pyc
+02-07 03:50:00.940 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/webdebugger.pyc
+02-07 03:50:00.940 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/cursor.pyc
+02-07 03:50:00.940 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/inspector.pyc
+02-07 03:50:00.941 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/modules/keybinding.pyc
+02-07 03:50:00.941 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/effects/
+02-07 03:50:00.941 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/effects/kinetic.pyc
+02-07 03:50:00.941 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/effects/scroll.pyc
+02-07 03:50:00.941 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/effects/dampedscroll.pyc
+02-07 03:50:00.942 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/effects/__init__.pyc
+02-07 03:50:00.942 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/effects/opacityscroll.pyc
+02-07 03:50:00.942 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lang/
+02-07 03:50:00.942 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lang/parser.pyc
+02-07 03:50:00.944 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lang/__init__.pyc
+02-07 03:50:00.945 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lang/builder.pyc
+02-07 03:50:00.946 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/storage/
+02-07 03:50:00.946 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/storage/jsonstore.pyc
+02-07 03:50:00.947 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/storage/dictstore.pyc
+02-07 03:50:00.947 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/storage/__init__.pyc
+02-07 03:50:00.948 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/storage/redisstore.pyc
+02-07 03:50:00.948 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/
+02-07 03:50:00.948 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/opengl_utils.so
+02-07 03:50:00.950 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/tesselator.so
+02-07 03:50:00.951 E/eglCodecCommon(  525): goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+02-07 03:50:00.955 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/stencil_instructions.so
+02-07 03:50:00.958 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/vertex.so
+02-07 03:50:00.959 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/compiler.so
+02-07 03:50:00.961 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/transformation.so
+02-07 03:50:00.965 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/vbo.so
+02-07 03:50:00.968 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl.so
+02-07 03:50:00.971 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/shader.so
+02-07 03:50:00.977 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/svg.so
+02-07 03:50:00.983 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/instructions.so
+02-07 03:50:00.986 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/fbo.so
+02-07 03:50:00.988 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/vertex_instructions.so
+02-07 03:50:00.998 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/__init__.pyc
+02-07 03:50:00.998 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/gl_instructions.so
+02-07 03:50:01.000 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/context.so
+02-07 03:50:01.003 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/buffer.so
+02-07 03:50:01.004 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/context_instructions.so
+02-07 03:50:01.010 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/opengl.so
+02-07 03:50:01.014 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/scissor_instructions.so
+02-07 03:50:01.018 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/texture.so
+02-07 03:50:01.022 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/
+02-07 03:50:01.022 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_mock.so
+02-07 03:50:01.023 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_sdl2.so
+02-07 03:50:01.024 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_debug.so
+02-07 03:50:01.029 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_glew.so
+02-07 03:50:01.030 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_gl.so
+02-07 03:50:01.032 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/__init__.pyc
+02-07 03:50:01.033 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/extras/
+02-07 03:50:01.033 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/extras/highlight.pyc
+02-07 03:50:01.034 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/extras/__init__.pyc
+02-07 03:50:01.034 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/
+02-07 03:50:01.034 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/__init__.pyc
+02-07 03:50:01.035 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/spelling/
+02-07 03:50:01.035 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/spelling/__init__.pyc
+02-07 03:50:01.036 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/spelling/spelling_enchant.pyc
+02-07 03:50:01.036 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/window/
+02-07 03:50:01.036 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/window/window_pygame.pyc
+02-07 03:50:01.037 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/window/window_egl_rpi.pyc
+02-07 03:50:01.037 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/window/window_sdl2.pyc
+02-07 03:50:01.038 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/window/_window_sdl2.so
+02-07 03:50:01.040 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/window/__init__.pyc
+02-07 03:50:01.041 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/window/window_info.so
+02-07 03:50:01.042 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/camera/
+02-07 03:50:01.042 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/camera/camera_picamera.pyc
+02-07 03:50:01.043 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/camera/camera_android.pyc
+02-07 03:50:01.043 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/camera/__init__.pyc
+02-07 03:50:01.043 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/camera/camera_gi.pyc
+02-07 03:50:01.044 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/camera/camera_opencv.pyc
+02-07 03:50:01.044 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/video/
+02-07 03:50:01.044 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/video/video_gstplayer.pyc
+02-07 03:50:01.044 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/video/video_null.pyc
+02-07 03:50:01.044 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/video/__init__.pyc
+02-07 03:50:01.045 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/video/video_ffmpeg.pyc
+02-07 03:50:01.045 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/video/video_ffpyplayer.pyc
+02-07 03:50:01.045 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/
+02-07 03:50:01.046 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/img_ffpyplayer.pyc
+02-07 03:50:01.046 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/img_pil.pyc
+02-07 03:50:01.046 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/img_pygame.pyc
+02-07 03:50:01.047 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/img_dds.pyc
+02-07 03:50:01.047 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/__init__.pyc
+02-07 03:50:01.047 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/_img_sdl2.so
+02-07 03:50:01.048 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/img_tex.pyc
+02-07 03:50:01.048 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/img_sdl2.pyc
+02-07 03:50:01.049 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/image/img_gif.pyc
+02-07 03:50:01.049 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/
+02-07 03:50:01.049 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/_clipboard_ext.pyc
+02-07 03:50:01.049 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_gtk3.pyc
+02-07 03:50:01.049 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_dummy.pyc
+02-07 03:50:01.049 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_dbusklipper.pyc
+02-07 03:50:01.050 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_nspaste.pyc
+02-07 03:50:01.050 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_android.pyc
+02-07 03:50:01.050 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_winctypes.pyc
+02-07 03:50:01.050 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/_clipboard_sdl2.so
+02-07 03:50:01.051 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/__init__.pyc
+02-07 03:50:01.051 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_pygame.pyc
+02-07 03:50:01.051 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_xclip.pyc
+02-07 03:50:01.051 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_xsel.pyc
+02-07 03:50:01.051 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_sdl2.pyc
+02-07 03:50:01.051 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/gl/
+02-07 03:50:01.052 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/gl/__init__.pyc
+02-07 03:50:01.052 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/
+02-07 03:50:01.052 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/text_sdl2.pyc
+02-07 03:50:01.052 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/markup.pyc
+02-07 03:50:01.052 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/text_pil.pyc
+02-07 03:50:01.053 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/text_pango.pyc
+02-07 03:50:01.053 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/__init__.pyc
+02-07 03:50:01.053 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/text_layout.so
+02-07 03:50:01.055 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/text_pygame.pyc
+02-07 03:50:01.055 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/text/_text_sdl2.so
+02-07 03:50:01.057 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/audio/
+02-07 03:50:01.057 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/audio/audio_pygame.pyc
+02-07 03:50:01.058 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/audio/audio_avplayer.pyc
+02-07 03:50:01.058 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/audio/audio_gstplayer.pyc
+02-07 03:50:01.058 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/audio/audio_ffpyplayer.pyc
+02-07 03:50:01.059 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/audio/audio_sdl2.so
+02-07 03:50:01.066 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/core/audio/__init__.pyc
+02-07 03:50:01.066 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/network/
+02-07 03:50:01.066 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/network/urlrequest.pyc
+02-07 03:50:01.067 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/network/__init__.pyc
+02-07 03:50:01.067 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/
+02-07 03:50:01.067 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/report.pyc
+02-07 03:50:01.067 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/benchmark.pyc
+02-07 03:50:01.068 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/changelog_parser.pyc
+02-07 03:50:01.068 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/kviewer.pyc
+02-07 03:50:01.068 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/texturecompress.pyc
+02-07 03:50:01.068 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/generate-icons.pyc
+02-07 03:50:01.069 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/stub-gl-debug.pyc
+02-07 03:50:01.069 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/__init__.pyc
+02-07 03:50:01.069 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/
+02-07 03:50:01.069 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/factory.pyc
+02-07 03:50:01.069 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/__init__.pyc
+02-07 03:50:01.070 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/
+02-07 03:50:01.070 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/hook-kivy.pyc
+02-07 03:50:01.070 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/__main__.pyc
+02-07 03:50:01.070 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/pyi_rth_kivy.pyc
+02-07 03:50:01.071 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/__init__.pyc
+02-07 03:50:01.071 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/
+02-07 03:50:01.071 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/
+02-07 03:50:01.072 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/media-playback-start.png
+02-07 03:50:01.072 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/spinner.png
+02-07 03:50:01.072 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter.png
+02-07 03:50:01.072 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png
+02-07 03:50:01.072 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_item.png
+02-07 03:50:01.073 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_view.png
+02-07 03:50:01.073 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_bar.png
+02-07 03:50:01.073 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble_btn.png
+02-07 03:50:01.076 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/slider_cursor_disabled.png
+02-07 03:50:01.076 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png
+02-07 03:50:01.076 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput_disabled.png
+02-07 03:50:01.076 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/progressbar.png
+02-07 03:50:01.077 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled_down.png
+02-07 03:50:01.077 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-background.png
+02-07 03:50:01.077 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/spinner_disabled.png
+02-07 03:50:01.077 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/separator.png
+02-07 03:50:01.077 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/slider_cursor.png
+02-07 03:50:01.077 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput.png
+02-07 03:50:01.078 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/overflow.png
+02-07 03:50:01.078 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tree_opened.png
+02-07 03:50:01.078 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderh_background.png
+02-07 03:50:01.078 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png
+02-07 03:50:01.078 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/progressbar_background.png
+02-07 03:50:01.078 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble.png
+02-07 03:50:01.078 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn.png
+02-07 03:50:01.079 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button_disabled.png
+02-07 03:50:01.079 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/filechooser_selected.png
+02-07 03:50:01.079 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_on.png
+02-07 03:50:01.080 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png
+02-07 03:50:01.080 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble_arrow.png
+02-07 03:50:01.080 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/media-playback-stop.png
+02-07 03:50:01.080 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/close.png
+02-07 03:50:01.081 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tree_closed.png
+02-07 03:50:01.081 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/media-playback-pause.png
+02-07 03:50:01.081 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_down_h.png
+02-07 03:50:01.081 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/selector_right.png
+02-07 03:50:01.081 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_h.png
+02-07 03:50:01.081 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn_disabled.png
+02-07 03:50:01.081 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/ring.png
+02-07 03:50:01.082 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble_btn_pressed.png
+02-07 03:50:01.082 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png
+02-07 03:50:01.082 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_group_disabled.png
+02-07 03:50:01.082 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_group.png
+02-07 03:50:01.082 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_on.png
+02-07 03:50:01.082 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/selector_middle.png
+02-07 03:50:01.083 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button_pressed.png
+02-07 03:50:01.083 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/selector_left.png
+02-07 03:50:01.083 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderv_background.png
+02-07 03:50:01.083 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled.png
+02-07 03:50:01.084 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderv_background_disabled.png
+02-07 03:50:01.084 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/filechooser_folder.png
+02-07 03:50:01.085 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_disabled.png
+02-07 03:50:01.085 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/modalview-background.png
+02-07 03:50:01.085 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-low.png
+02-07 03:50:01.085 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_off.png
+02-07 03:50:01.086 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-background_disabled.png
+02-07 03:50:01.086 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-button_disabled.png
+02-07 03:50:01.086 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-high.png
+02-07 03:50:01.086 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_key_down.png
+02-07 03:50:01.086 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderh_background_disabled.png
+02-07 03:50:01.087 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-muted.png
+02-07 03:50:01.087 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png
+02-07 03:50:01.087 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_item_down.png
+02-07 03:50:01.087 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/player-play-overlay.png
+02-07 03:50:01.088 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn_pressed.png
+02-07 03:50:01.088 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_grip.png
+02-07 03:50:01.088 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_disabled_off.png
+02-07 03:50:01.088 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png
+02-07 03:50:01.089 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/image-missing.png
+02-07 03:50:01.089 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled_h.png
+02-07 03:50:01.089 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/player-background.png
+02-07 03:50:01.089 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/previous_normal.png
+02-07 03:50:01.090 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput_active.png
+02-07 03:50:01.090 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png
+02-07 03:50:01.090 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_off.png
+02-07 03:50:01.092 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_down.png
+02-07 03:50:01.092 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_group_down.png
+02-07 03:50:01.093 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab.png
+02-07 03:50:01.093 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-button.png
+02-07 03:50:01.093 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_background.png
+02-07 03:50:01.093 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-medium.png
+02-07 03:50:01.093 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_disabled_on.png
+02-07 03:50:01.093 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button.png
+02-07 03:50:01.093 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_grip_h.png
+02-07 03:50:01.094 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/spinner_pressed.png
+02-07 03:50:01.094 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button_disabled_pressed.png
+02-07 03:50:01.094 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput_disabled_active.png
+02-07 03:50:01.094 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/filechooser_file.png
+02-07 03:50:01.094 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/pep8checker/
+02-07 03:50:01.095 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/pep8checker/pep8.pyc
+02-07 03:50:01.097 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/pep8checker/pre-commit.githook
+02-07 03:50:01.098 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/pep8checker/pep8kivy.pyc
+02-07 03:50:01.098 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/gles_compat/
+02-07 03:50:01.098 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/gles_compat/subset_gles.pyc
+02-07 03:50:01.098 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/highlight/
+02-07 03:50:01.098 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/highlight/__init__.pyc
+02-07 03:50:01.099 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/highlight/kivy.json-tmlanguage
+02-07 03:50:01.099 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/highlight/kivy-mode.el
+02-07 03:50:01.099 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/highlight/kivy.tmLanguage
+02-07 03:50:01.099 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/tools/highlight/kivy.vim
+02-07 03:50:01.100 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/
+02-07 03:50:01.100 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/mtdev.pyc
+02-07 03:50:01.102 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/ddsfile.pyc
+02-07 03:50:01.103 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/__init__.pyc
+02-07 03:50:01.103 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/gstplayer/
+02-07 03:50:01.103 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/gstplayer/__init__.pyc
+02-07 03:50:01.103 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/vidcore_lite/
+02-07 03:50:01.103 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/lib/vidcore_lite/__init__.pyc
+02-07 03:50:01.104 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/
+02-07 03:50:01.104 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/slider.pyc
+02-07 03:50:01.104 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/boxlayout.pyc
+02-07 03:50:01.105 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/actionbar.pyc
+02-07 03:50:01.105 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/stacklayout.pyc
+02-07 03:50:01.106 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/button.pyc
+02-07 03:50:01.106 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/sandbox.pyc
+02-07 03:50:01.106 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/camera.pyc
+02-07 03:50:01.106 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/switch.pyc
+02-07 03:50:01.107 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/colorpicker.pyc
+02-07 03:50:01.107 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/textinput.pyc
+02-07 03:50:01.108 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/anchorlayout.pyc
+02-07 03:50:01.108 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recycleboxlayout.pyc
+02-07 03:50:01.109 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/codeinput.pyc
+02-07 03:50:01.109 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/image.pyc
+02-07 03:50:01.109 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/treeview.pyc
+02-07 03:50:01.109 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/togglebutton.pyc
+02-07 03:50:01.110 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/vkeyboard.pyc
+02-07 03:50:01.110 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/bubble.pyc
+02-07 03:50:01.111 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/splitter.pyc
+02-07 03:50:01.111 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/videoplayer.pyc
+02-07 03:50:01.112 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/stencilview.pyc
+02-07 03:50:01.112 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/widget.pyc
+02-07 03:50:01.113 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/accordion.pyc
+02-07 03:50:01.113 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/carousel.pyc
+02-07 03:50:01.113 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/effectwidget.pyc
+02-07 03:50:01.114 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/checkbox.pyc
+02-07 03:50:01.114 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/scrollview.pyc
+02-07 03:50:01.114 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/modalview.pyc
+02-07 03:50:01.114 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/__init__.pyc
+02-07 03:50:01.115 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/spinner.pyc
+02-07 03:50:01.115 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recyclelayout.pyc
+02-07 03:50:01.115 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/dropdown.pyc
+02-07 03:50:01.115 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/rst.pyc
+02-07 03:50:01.116 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/gesturesurface.pyc
+02-07 03:50:01.117 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/tabbedpanel.pyc
+02-07 03:50:01.117 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/layout.pyc
+02-07 03:50:01.118 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/filechooser.pyc
+02-07 03:50:01.118 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/progressbar.pyc
+02-07 03:50:01.118 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/scatterlayout.pyc
+02-07 03:50:01.119 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recyclegridlayout.pyc
+02-07 03:50:01.119 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/gridlayout.pyc
+02-07 03:50:01.120 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/settings.pyc
+02-07 03:50:01.121 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/popup.pyc
+02-07 03:50:01.121 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/floatlayout.pyc
+02-07 03:50:01.121 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/label.pyc
+02-07 03:50:01.122 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/scatter.pyc
+02-07 03:50:01.122 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/video.pyc
+02-07 03:50:01.122 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/screenmanager.pyc
+02-07 03:50:01.123 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/pagelayout.pyc
+02-07 03:50:01.123 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/relativelayout.pyc
+02-07 03:50:01.123 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/
+02-07 03:50:01.123 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/button.pyc
+02-07 03:50:01.124 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/touchripple.pyc
+02-07 03:50:01.124 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/drag.pyc
+02-07 03:50:01.124 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/cover.pyc
+02-07 03:50:01.125 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/togglebutton.pyc
+02-07 03:50:01.125 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/knspace.pyc
+02-07 03:50:01.126 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/codenavigation.pyc
+02-07 03:50:01.126 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/__init__.pyc
+02-07 03:50:01.126 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/compoundselection.pyc
+02-07 03:50:01.127 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/focus.pyc
+02-07 03:50:01.127 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/behaviors/emacs.pyc
+02-07 03:50:01.127 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recycleview/
+02-07 03:50:01.128 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recycleview/views.pyc
+02-07 03:50:01.128 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recycleview/__init__.pyc
+02-07 03:50:01.128 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recycleview/layout.pyc
+02-07 03:50:01.128 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/uix/recycleview/datamodel.pyc
+02-07 03:50:01.129 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/deps/
+02-07 03:50:01.129 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/deps/__init__.pyc
+02-07 03:50:01.129 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/garden/
+02-07 03:50:01.129 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/garden/__init__.pyc
+02-07 03:50:01.130 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/
+02-07 03:50:01.130 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/recorder.pyc
+02-07 03:50:01.130 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/motionevent.pyc
+02-07 03:50:01.130 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/provider.pyc
+02-07 03:50:01.131 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/factory.pyc
+02-07 03:50:01.131 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/__init__.pyc
+02-07 03:50:01.131 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/shape.pyc
+02-07 03:50:01.131 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/
+02-07 03:50:01.131 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/retaintouch.pyc
+02-07 03:50:01.131 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/calibration.pyc
+02-07 03:50:01.132 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/ignorelist.pyc
+02-07 03:50:01.132 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/tripletap.pyc
+02-07 03:50:01.133 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/__init__.pyc
+02-07 03:50:01.133 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/doubletap.pyc
+02-07 03:50:01.134 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/postproc/dejitter.pyc
+02-07 03:50:01.135 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/providers/
+02-07 03:50:01.135 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/providers/leapfinger.pyc
+02-07 03:50:01.135 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/providers/tuio.pyc
+02-07 03:50:01.135 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/providers/linuxwacom.pyc
+02-07 03:50:01.136 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/providers/mouse.pyc
+02-07 03:50:01.137 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/providers/__init__.pyc
+02-07 03:50:01.137 V/python  ( 1704): extracting _python_bundle/site-packages/kivy/input/providers/androidjoystick.pyc
+02-07 03:50:01.138 V/python  ( 1704): extracting _python_bundle/site-packages/certifi/
+02-07 03:50:01.139 V/python  ( 1704): extracting _python_bundle/site-packages/certifi/__main__.pyc
+02-07 03:50:01.140 V/python  ( 1704): extracting _python_bundle/site-packages/certifi/cacert.pem
+02-07 03:50:01.145 V/python  ( 1704): extracting _python_bundle/site-packages/certifi/__init__.pyc
+02-07 03:50:01.145 V/python  ( 1704): extracting _python_bundle/site-packages/certifi/core.pyc
+02-07 03:50:01.146 V/python  ( 1704): extracting _python_bundle/site-packages/pyjnius-1.2.1-py3.8.egg-info/
+02-07 03:50:01.146 V/python  ( 1704): extracting _python_bundle/site-packages/pyjnius-1.2.1-py3.8.egg-info/SOURCES.txt
+02-07 03:50:01.147 V/python  ( 1704): extracting _python_bundle/site-packages/pyjnius-1.2.1-py3.8.egg-info/top_level.txt
+02-07 03:50:01.148 V/python  ( 1704): extracting _python_bundle/site-packages/pyjnius-1.2.1-py3.8.egg-info/PKG-INFO
+02-07 03:50:01.149 V/python  ( 1704): extracting _python_bundle/site-packages/pyjnius-1.2.1-py3.8.egg-info/dependency_links.txt
+02-07 03:50:01.149 V/python  ( 1704): extracting _python_bundle/site-packages/pyjnius-1.2.1-py3.8.egg-info/requires.txt
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libpython3.8m.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libssl1.1.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libSDL2_mixer.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libSDL2_ttf.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libmain.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libSDL2.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libhidapi.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libffi.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libsqlite3.so
+02-07 03:50:01.151 V/pythonutil( 1704): Pattern libsqlite3\.so matched file libsqlite3.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libcrypto1.1.so
+02-07 03:50:01.151 V/pythonutil( 1704): Checking pattern libsqlite3\.so against libSDL2_image.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libpython3.8m.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libssl1.1.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libSDL2_mixer.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libSDL2_ttf.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libmain.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libSDL2.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libhidapi.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libffi.so
+02-07 03:50:01.152 V/pythonutil( 1704): Pattern libffi\.so matched file libffi.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libsqlite3.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libcrypto1.1.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libffi\.so against libSDL2_image.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libpng16\.so against libpython3.8m.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libpng16\.so against libssl1.1.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libpng16\.so against libSDL2_mixer.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libpng16\.so against libSDL2_ttf.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libpng16\.so against libmain.so
+02-07 03:50:01.152 V/pythonutil( 1704): Checking pattern libpng16\.so against libSDL2.so
+02-07 03:50:01.153 V/pythonutil( 1704): Checking pattern libpng16\.so against libhidapi.so
+02-07 03:50:01.153 V/pythonutil( 1704): Checking pattern libpng16\.so against libffi.so
+02-07 03:50:01.153 V/pythonutil( 1704): Checking pattern libpng16\.so against libsqlite3.so
+02-07 03:50:01.153 V/pythonutil( 1704): Checking pattern libpng16\.so against libcrypto1.1.so
+02-07 03:50:01.153 V/pythonutil( 1704): Checking pattern libpng16\.so against libSDL2_image.so
+02-07 03:50:01.153 V/pythonutil( 1704): Checking pattern libssl.*\.so against libpython3.8m.so
+02-07 03:50:01.153 V/pythonutil( 1704): Checking pattern libssl.*\.so against libssl1.1.so
+02-07 03:50:01.154 V/pythonutil( 1704): Pattern libssl.*\.so matched file libssl1.1.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libSDL2_mixer.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libSDL2_ttf.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libmain.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libSDL2.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libhidapi.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libffi.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libsqlite3.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libcrypto1.1.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libssl.*\.so against libSDL2_image.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libpython3.8m.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libssl1.1.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libSDL2_mixer.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libSDL2_ttf.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libmain.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libSDL2.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libhidapi.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libffi.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libsqlite3.so
+02-07 03:50:01.154 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libcrypto1.1.so
+02-07 03:50:01.154 V/pythonutil( 1704): Pattern libcrypto.*\.so matched file libcrypto1.1.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libcrypto.*\.so against libSDL2_image.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libpython3.8m.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libssl1.1.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libSDL2_mixer.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libSDL2_ttf.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libmain.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libSDL2.so
+02-07 03:50:01.155 V/pythonutil( 1704): Pattern libSDL2\.so matched file libSDL2.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libhidapi.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libffi.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libsqlite3.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libcrypto1.1.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2\.so against libSDL2_image.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libpython3.8m.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libssl1.1.so
+02-07 03:50:01.155 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libSDL2_mixer.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libSDL2_ttf.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libmain.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libSDL2.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libhidapi.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libffi.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libsqlite3.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libcrypto1.1.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_image\.so against libSDL2_image.so
+02-07 03:50:01.156 V/pythonutil( 1704): Pattern libSDL2_image\.so matched file libSDL2_image.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libpython3.8m.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libssl1.1.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libSDL2_mixer.so
+02-07 03:50:01.156 V/pythonutil( 1704): Pattern libSDL2_mixer\.so matched file libSDL2_mixer.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libSDL2_ttf.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libmain.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libSDL2.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libhidapi.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libffi.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libsqlite3.so
+02-07 03:50:01.156 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libcrypto1.1.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_mixer\.so against libSDL2_image.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libpython3.8m.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libssl1.1.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libSDL2_mixer.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libSDL2_ttf.so
+02-07 03:50:01.157 V/pythonutil( 1704): Pattern libSDL2_ttf\.so matched file libSDL2_ttf.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libmain.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libSDL2.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libhidapi.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libffi.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libsqlite3.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libcrypto1.1.so
+02-07 03:50:01.157 V/pythonutil( 1704): Checking pattern libSDL2_ttf\.so against libSDL2_image.so
+02-07 03:50:01.157 V/pythonutil( 1704): Loading library: sqlite3
+02-07 03:50:01.180 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libsqlite3.so via Native Bridge.
+02-07 03:50:01.180 V/pythonutil( 1704): Loading library: ffi
+02-07 03:50:01.180 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libffi.so via Native Bridge.
+02-07 03:50:01.180 V/pythonutil( 1704): Loading library: ssl1.1
+02-07 03:50:01.181 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libssl1.1.so via Native Bridge.
+02-07 03:50:01.181 V/pythonutil( 1704): Loading library: crypto1.1
+02-07 03:50:01.181 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libcrypto1.1.so via Native Bridge.
+02-07 03:50:01.181 V/pythonutil( 1704): Loading library: SDL2
+02-07 03:50:01.228 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libSDL2.so via Native Bridge.
+02-07 03:50:01.229 V/pythonutil( 1704): Loading library: SDL2_image
+02-07 03:50:01.269 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libSDL2_image.so via Native Bridge.
+02-07 03:50:01.269 V/pythonutil( 1704): Loading library: SDL2_mixer
+02-07 03:50:01.270 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libSDL2_mixer.so via Native Bridge.
+02-07 03:50:01.270 V/pythonutil( 1704): Loading library: SDL2_ttf
+02-07 03:50:01.270 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libSDL2_ttf.so via Native Bridge.
+02-07 03:50:01.270 V/pythonutil( 1704): Loading library: python3.5m
+02-07 03:50:01.271 V/pythonutil( 1704): Library loading error: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/base.apk"],nativeLibraryDirectories=[/data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm, /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]] couldn't find "libpython3.5m.so"
+02-07 03:50:01.271 V/pythonutil( 1704): Loading library: python3.6m
+02-07 03:50:01.272 V/pythonutil( 1704): Library loading error: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/base.apk"],nativeLibraryDirectories=[/data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm, /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]] couldn't find "libpython3.6m.so"
+02-07 03:50:01.272 V/pythonutil( 1704): Loading library: python3.7m
+02-07 03:50:01.272 V/pythonutil( 1704): Library loading error: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/base.apk"],nativeLibraryDirectories=[/data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm, /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/base.apk!/lib/armeabi-v7a, /system/lib, /system/vendor/lib]]] couldn't find "libpython3.7m.so"
+02-07 03:50:01.272 V/pythonutil( 1704): Loading library: python3.8m
+02-07 03:50:01.274 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libpython3.8m.so via Native Bridge.
+02-07 03:50:01.274 V/pythonutil( 1704): Loading library: main
+02-07 03:50:01.274 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libmain.so via Native Bridge.
+02-07 03:50:01.274 V/pythonutil( 1704): Loaded everything!
+02-07 03:50:01.275 V/SDL     ( 1704): nativeSetupJNI()
+02-07 03:50:01.275 V/SDL     ( 1704): AUDIO nativeSetupJNI()
+02-07 03:50:01.276 V/SDL     ( 1704): CONTROLLER nativeSetupJNI()
+02-07 03:50:01.279 D/houdini ( 1704): [1704] loaded library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libhidapi.so via Native Bridge.
+02-07 03:50:01.285 D/hidapi  ( 1704): Initializing Bluetooth
+02-07 03:50:01.285 D/hidapi  ( 1704): Couldn't initialize Bluetooth, missing android.permission.BLUETOOTH
+02-07 03:50:01.317 V/PythonActivity( 1704): Setting env vars for start.c and Python to use
+02-07 03:50:01.317 V/PythonActivity( 1704): Access to our meta-data...
+02-07 03:50:01.318 I/PythonActivity( 1704): Surface will NOT be transparent
+02-07 03:50:01.318 V/PythonActivity( 1704): onResume()
+02-07 03:50:01.318 V/SDL     ( 1704): onResume()
+02-07 03:50:01.349 I/surfaceflinger(  479): type=1400 audit(0.0:910): avc: denied { sendto } for path="/dev/socket/logdw" scontext=u:r:surfaceflinger:s0 tcontext=u:r:init:s0 tclass=unix_dgram_socket permissive=1
+02-07 03:50:01.352 V/SDL     ( 1704): surfaceCreated()
+02-07 03:50:01.352 V/SDL     ( 1704): surfaceChanged()
+02-07 03:50:01.352 V/SDL     ( 1704): pixel format RGB_565
+02-07 03:50:01.355 V/SDL     ( 1704): Window size: 1440x2628
+02-07 03:50:01.356 V/SDL     ( 1704): Device size: 1440x2880
+02-07 03:50:01.359 D/Sensors (  471): batch handle 1, but there is no batch sensor in genymotion
+02-07 03:50:01.357 I/sensors@1.0-ser(  471): type=1400 audit(0.0:911): avc: denied { sendto } for path="/dev/socket/logdw" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:init:s0 tclass=unix_dgram_socket permissive=1
+02-07 03:50:01.359 D/Sensors (  471): batch handle 1, but there is no batch sensor in genymotion
+02-07 03:50:01.361 V/SDL     ( 1704): nativeResume()
+02-07 03:50:01.365 V/SDL     ( 1704): Running main function SDL_main from library /data/app/org.test.myapp-7nodsFVojb0D5jY-b67www==/lib/arm/libmain.so
+02-07 03:50:01.365 V/PythonActivity( 1704): appConfirmedActive() -> preparing loading screen removal
+02-07 03:50:01.368 V/SDL     ( 1704): nativeRunMain()
+02-07 03:50:01.370 I/python  ( 1704): Initializing Python for Android
+02-07 03:50:01.370 I/python  ( 1704): Setting additional env vars from p4a_env_vars.txt
+02-07 03:50:01.371 I/python  ( 1704): Changing directory to the one provided by ANDROID_ARGUMENT
+02-07 03:50:01.371 I/python  ( 1704): /data/user/0/org.test.myapp/files/app
+02-07 03:50:01.371 I/python  ( 1704): Preparing to initialize python
+02-07 03:50:01.371 I/python  ( 1704): _python_bundle dir exists
+02-07 03:50:01.371 I/python  ( 1704): calculated paths to be...
+02-07 03:50:01.371 I/python  ( 1704): /data/user/0/org.test.myapp/files/app/_python_bundle/stdlib.zip:/data/user/0/org.test.myapp/files/app/_python_bundle/modules
+02-07 03:50:01.373 I/python  ( 1704): set wchar paths...
+02-07 03:50:01.446 I/zygote  ( 1704): Do partial code cache collection, code=29KB, data=20KB
+02-07 03:50:01.446 I/zygote  ( 1704): After code cache collection, code=29KB, data=20KB
+02-07 03:50:01.446 I/zygote  ( 1704): Increasing code cache capacity to 128KB
+02-07 03:50:01.497 I/SDLThread( 1704): type=1400 audit(0.0:912): avc: denied { ioctl } for path="/data/data/org.test.myapp/files/app/_python_bundle/stdlib.zip" dev="sdb3" ino=82186 ioctlcmd=5401 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=file permissive=1
+02-07 03:50:01.529 I/SDLThread( 1704): type=1400 audit(0.0:913): avc: denied { read } for name="modules" dev="sdb3" ino=82187 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=1
+02-07 03:50:01.529 I/SDLThread( 1704): type=1400 audit(0.0:914): avc: denied { open } for path="/data/data/org.test.myapp/files/app/_python_bundle/modules" dev="sdb3" ino=82187 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=1
+02-07 03:50:01.573 I/healthd (  488): type=1400 audit(0.0:915): avc: denied { read } for name="capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+02-07 03:50:01.573 I/healthd (  488): type=1400 audit(0.0:916): avc: denied { open } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+02-07 03:50:01.573 I/healthd (  488): type=1400 audit(0.0:917): avc: denied { getattr } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+02-07 03:50:01.613 I/python  ( 1704): Initialized python
+02-07 03:50:01.613 I/python  ( 1704): AND: Init threads
+02-07 03:50:01.616 I/python  ( 1704): testing python print redirection
+02-07 03:50:01.627 I/python  ( 1704): Android path ['.', '/data/user/0/org.test.myapp/files/app/_python_bundle/stdlib.zip', '/data/user/0/org.test.myapp/files/app/_python_bundle/modules', '/data/user/0/org.test.myapp/files/app/_python_bundle/site-packages']
+02-07 03:50:01.631 I/python  ( 1704): os.environ is environ({'PATH': '/sbin:/system/sbin:/system/bin:/system/xbin:/vendor/bin:/vendor/xbin', 'DOWNLOAD_CACHE': '/data/cache', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ROOT': '/system', 'ANDROID_ASSETS': '/system/app', 'ANDROID_DATA': '/data', 'ANDROID_STORAGE': '/storage', 'EXTERNAL_STORAGE': '/sdcard', 'ASEC_MOUNTPOINT': '/mnt/asec', 'BOOTCLASSPATH': '/system/framework/core-oj.jar:/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/legacy-test.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar:/system/framework/android.hidl.base-V1.0-java.jar:/system/framework/android.hidl.manager-V1.0-java.jar', 'SYSTEMSERVERCLASSPATH': '/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar', 'ANDROID_SOCKET_zygote': '8', 'ANDROID_ENTRYPOINT': 'main.pyc', 'ANDROID_ARGUMENT': '/data/user/0/org.test.myapp/files/app', 'ANDROID_APP_PATH': '/data/user/0/org.test.myapp/files/app', 'ANDROID_PRIVATE': '/data/user/0/org.test.myapp/files', 'ANDROID_UNPACK': '/data/user/0/org.test.myapp/files/app', 'PYTHONHOME': '/data/user/0/org.test.myapp/files/app', 'PYTHONPATH': '/data/user/0/org.test.myapp/files/app:/data/user/0/org.test.myapp/files/app/lib', 'PYTHONOPTIMIZE': '2', 'P4A_BOOTSTRAP': 'SDL2', 'PYTHON_NAME': 'python', 'P4A_IS_WINDOWED': 'True', 'P4A_ORIENTATION': 'portrait', 'P4A_NUMERIC_VERSION': 'None', 'P4A_MINSDK': '21', 'LC_CTYPE': 'C.UTF-8'})
+02-07 03:50:01.631 I/python  ( 1704): Android kivy bootstrap done. __name__ is __main__
+02-07 03:50:01.632 I/python  ( 1704): AND: Ran string
+02-07 03:50:01.632 I/python  ( 1704): Run user program, change dir and execute entrypoint
+02-07 03:50:01.797 I/org.test.myapp( 1704): type=1400 audit(0.0:918): avc: denied { remove_name } for name=".hptc.cache_org.test.myapp" dev="sdb3" ino=83139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=dir permissive=1
+02-07 03:50:01.870 I/python  ( 1704): [WARNING] [Config      ] Older configuration version detected (0 instead of 21)
+02-07 03:50:01.871 I/python  ( 1704): [WARNING] [Config      ] Upgrading configuration in progress.
+02-07 03:50:01.879 I/python  ( 1704): [INFO   ] [Logger      ] Record log in /data/user/0/org.test.myapp/files/app/.kivy/logs/kivy_21-02-07_0.txt
+02-07 03:50:01.880 I/python  ( 1704): [INFO   ] [Kivy        ] v1.11.1
+02-07 03:50:01.881 I/python  ( 1704): [INFO   ] [Kivy        ] Installed at "/data/user/0/org.test.myapp/files/app/_python_bundle/site-packages/kivy/__init__.pyc"
+02-07 03:50:01.881 I/python  ( 1704): [INFO   ] [Python      ] v3.8.1 (default, Jan 13 2021, 18:58:19) 
+02-07 03:50:01.881 I/python  ( 1704): [Clang 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec7462
+02-07 03:50:01.882 I/python  ( 1704): [INFO   ] [Python      ] Interpreter at ""
+02-07 03:50:01.883 I/python  ( 1704): [INFO   ] [KivyMD      ] v0.104.1
+02-07 03:50:01.886 I/python  ( 1704): [INFO   ] [Factory     ] 184 symbols loaded
+02-07 03:50:02.241 I/wifi@1.0-servic(  472): type=1400 audit(0.0:919): avc: denied { write } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+02-07 03:50:02.241 I/wifi@1.0-servic(  472): type=1400 audit(0.0:920): avc: denied { nlmsg_read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+02-07 03:50:02.241 I/wifi@1.0-servic(  472): type=1400 audit(0.0:921): avc: denied { read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+02-07 03:50:02.749 I/python  ( 1704): [INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+02-07 03:50:02.820 I/python  ( 1704): [INFO   ] [Window      ] Provider: sdl2
+02-07 03:50:02.842 E/libEGL  ( 1704): validate_display:92 error 3008 (EGL_BAD_DISPLAY)
+02-07 03:50:02.843 V/SDL     ( 1704): setOrientation() orientation=-1 width=800 height=600 resizable=true hint=
+02-07 03:50:02.844 D/        ( 1704): HostConnection::get() New Host Connection established 0xdf8a45a0, tid 1736
+02-07 03:50:02.845 D/        ( 1704): HostComposition ext GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_gles_max_version_3_1 
+02-07 03:50:02.853 E/libEGL  ( 1704): validate_display:92 error 3008 (EGL_BAD_DISPLAY)
+02-07 03:50:02.853 V/SDL     ( 1704): setOrientation() orientation=-1 width=800 height=600 resizable=true hint=
+02-07 03:50:02.902 D/EGL_emulation( 1704): eglCreateContext: 0xdf885420: maj 3 min 1 rcv 4
+02-07 03:50:02.961 I/python  ( 1704): [INFO   ] [GL          ] Using the "OpenGL ES 2" graphics system
+02-07 03:50:02.964 I/python  ( 1704): [INFO   ] [GL          ] Backend used <sdl2>
+02-07 03:50:02.969 I/python  ( 1704): [INFO   ] [GL          ] OpenGL version <b'OpenGL ES 3.1 (4.5.0 NVIDIA 460.32.03)'>
+02-07 03:50:02.969 I/python  ( 1704): [INFO   ] [GL          ] OpenGL vendor <b'Google (NVIDIA Corporation)'>
+02-07 03:50:02.970 I/python  ( 1704): [INFO   ] [GL          ] OpenGL renderer <b'Android Emulator OpenGL ES Translator (GeForce GT 710/PCIe/SSE2)'>
+02-07 03:50:02.971 I/python  ( 1704): [INFO   ] [GL          ] OpenGL parsed version: 3, 1
+02-07 03:50:02.973 I/python  ( 1704): [INFO   ] [GL          ] Texture max size <16384>
+02-07 03:50:02.974 I/python  ( 1704): [INFO   ] [GL          ] Texture max units <32>
+02-07 03:50:03.012 I/python  ( 1704): [INFO   ] [Window      ] auto add sdl2 input provider
+02-07 03:50:03.018 I/python  ( 1704): [INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+02-07 03:50:03.026 I/python  ( 1704): [INFO   ] [Text        ] Provider: sdl2
+02-07 03:50:03.122 I/python  ( 1704): [INFO   ] [GL          ] NPOT texture support is available
+02-07 03:50:03.393 V/PythonActivity( 1704): addPermissionsCallback(): Added callback for onRequestPermissionsResult
+02-07 03:50:03.395 I/ActivityManager(  525): START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.android.packageinstaller cmp=com.android.packageinstaller/.permission.ui.GrantPermissionsActivity (has extras)} from uid 10068
+02-07 03:50:03.396 V/PythonActivity( 1704): onPause()
+02-07 03:50:03.396 V/SDL     ( 1704): onPause()
+02-07 03:50:03.396 V/SDL     ( 1704): nativePause()
+02-07 03:50:03.397 I/python  ( 1704): [INFO   ] [WindowSDL   ] No running App found, exit.
+02-07 03:50:03.398 D/Sensors (  471): batch handle 1, but there is no batch sensor in genymotion
+02-07 03:50:03.405 V/SDL     ( 1704): onWindowFocusChanged(): false
