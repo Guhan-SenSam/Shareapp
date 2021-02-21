@@ -18,8 +18,10 @@ from kivy.utils import platform
 from kivy.clock import Clock
 
 import plyer
+from jnius import autoclass
 import os
 from functools import partial
+
 
 class MenuScreen():
 
@@ -177,11 +179,15 @@ class MenuScreen():
     def Settings_screen_str_anim(self,caller, *args):
         Mainscreenvar = sm.get_screen('MainScreen')
         anim1 = Animation(angle = 0, duration = .4, t='in_out_circ')
-        anim2 = Animation(size = Window.size, duration = .4, t='in_out_circ')
+        anim2 = Animation(size =Window.size, duration = .4, t='in_out_circ')
         anim3 = Animation(pos_hint = {'center_x':0.5, "center_y":0.5}, duration = .4, t='in_out_circ')
+        anim4 = Animation(pos_hint = {'center_x':0.5, "center_y":2}, duration = .4, t='in_out_circ')
+        anim5 = Animation(pos_hint = {'center_x':0.5, "center_y":-2}, duration = .4, t='in_out_circ')
         anim1.start(Mainscreenvar)
         anim2.start(Mainscreenvar.ids.b_card)
         anim3.start(Mainscreenvar.ids.container.children[-1])
+        anim4.start(Mainscreenvar.ids.container.children[2])
+        anim5.start(Mainscreenvar.ids.container.children[1])
         # print(Mainscreenvar.ids.container.children)
 
 
@@ -238,36 +244,6 @@ class SenderScreen():
         anim3.start(self.select_button)
 
 
-    def searcher_animation_1(self, elapsed_time):
-        if self.animation_object.end_angle == 0.0:
-            anim1 = Animation(end_angle = 360.0, duration = 1, t="in_out_circ")
-            anim1.start(self.animation_object)
-            anim2 = Animation(end_angle2 = -360.0, duration =1, t = 'in_out_circ')
-            anim2.start(self.animation_object)
-            object_size = self.animation_object.canvas.children[2].size
-            object_final_pos = (Window.center[0]-object_size[0]/3, Window.center[1]-object_size[1]/3)
-            anim3 = Animation(size = (object_size[0]/1.5, object_size[1]/1.5),pos = object_final_pos, duration =1, t = 'out_circ')
-            anim3.start(self.searching_object)
-            anim3.start(self.animation_object.canvas.children[2])
-
-
-
-        elif self.animation_object.end_angle == 360.0:
-            anim4 = Animation(start_angle = 360.0, duration = 1, t="in_out_circ")
-            anim4.start(self.animation_object)
-            anim5 = Animation(start_angle2 = -360, duration = 1, t="in_out_circ")
-            anim5.start(self.animation_object)
-            anim5.bind(on_complete = partial(SenderScreen.angle_reseter, self))
-            object_initial_pos = (Window.center[0]-Window.size[0]/3, Window.center[1]-Window.size[0]/3)
-            anim6 = Animation(size = (Window.size[0]/1.5, Window.size[0]/1.5), pos = object_initial_pos, duration =1, t = 'out_circ')
-            anim6.start(self.animation_object.canvas.children[2])
-
-    def angle_reseter(self, animatio_object, caller):
-        self.animation_object.end_angle = 0
-        self.animation_object.start_angle = 0
-        self.animation_object.end_angle2 = 0
-        self.animation_object.start_angle2 = 0
-
     def ready_files_ui(self, files, *args):
         Mainscreenvar = sm.get_screen('MainScreen')
         self.layout_object.clear_widgets()
@@ -286,28 +262,55 @@ class SenderScreen():
         anim2 = Animation(pos_hint={'center_x':.5, "center_y":.06}, duration = .2)
         anim1.start(self.files_ready_card)
         anim2.start(self.files_ready_card)
-        circle_x_size1 = Window.size[0]/3
-        circle_y_size1 = Window.size[0]/3
-        circle_x_size2 = Window.size[0]/2.5
-        circle_y_size2 = Window.size[0]/2.5
-        circle_x_size3 = Window.size[0]/1.5
-        circle_y_size3 = Window.size[0]/1.5
-        SearchingAnimation.object_size1 = (circle_x_size1, circle_y_size1)
-        SearchingAnimation.object_size2 = (circle_x_size2, circle_y_size2)
-        SearchingAnimation.object_size3 = (circle_x_size3, circle_y_size3)
-        SearchingAnimation.object_pos1 = (Window.center[0]-circle_x_size1/2, Window.center[1]-circle_y_size1/2)
-        SearchingAnimation.object_pos2 = (Window.center[0]-circle_x_size2/2, Window.center[1]-circle_y_size2/2)
-        SearchingAnimation.object_pos3 = (Window.center[0]-circle_x_size3/2, Window.center[1]-circle_y_size3/2)
         self.animation_object = SearchingAnimation()
+        self.animation_object.object_pos1 = Window.center
+        self.animation_object.object_pos2 = Window.center
+        self.animation_object.object_pos3 = Window.center
+        self.animation_object.object_pos4 = Window.center
         self.layout_object.add_widget(self.animation_object)
-
         self.searching_object = SearchingObject()
         self.layout_object.add_widget(self.searching_object)
-        Clock.schedule_interval(partial(SenderScreen.searcher_animation_1, self), 1.1)
+        self.started_sending_procedure = 0
+        SenderScreen.searcher_animation_1(self, 0)
+        Clock.schedule_interval(partial(SenderScreen.searcher_animation_1, self), 2)
+
+    def searcher_animation_1(self, elapsed_time):
+        final_size_outer = (Window.size[0]/1.1, Window.size[0]/1.1)
+        final_size_inner = (Window.size[0]/1.1, Window.size[0]/1.1)
+        final_pos_outer = (Window.center[0]-final_size_outer[0]/2, Window.center[1]-final_size_outer[0]/2)
+        final_pos_inner = (Window.center[0]-final_size_inner[0]/2, Window.center[1]-final_size_inner[0]/2)
+        anim1 = Animation(object_size1 = final_size_outer, object_pos1= final_pos_outer, duration=1, t='out_circ')
+        anim2 = Animation(object_size2 = final_size_inner, object_pos2= final_pos_inner, duration=1.2, t='out_circ')
+        anim3 = Animation(duration = .5)
+        anim3 += Animation(object_size3 = final_size_outer, object_pos3= final_pos_outer, duration=1, t='out_circ')
+        anim4 = Animation(duration = .5)
+        anim4 += Animation(object_size4 = final_size_outer, object_pos4= final_pos_outer, duration=1.2, t='out_circ')
+        anim5 = Animation(size_hint = (0.3, 0.15), elevation = 14,duration=1.2, t='in_out_circ')
+        anim1.start(self.animation_object)
+        anim2.start(self.animation_object)
+        anim3.start(self.animation_object)
+        anim4.start(self.animation_object)
+        anim5.start(self.searching_object)
+        anim4.bind(on_complete = partial(SenderScreen.size_reset, self))
+        if self.started_sending_procedure == 0:
+            Senderlogic.sending(self)
+
+    def size_reset(self, a, caller):
+        anim3 = Animation(object_size1 = (0,0), object_pos1 = Window.center,
+                        object_size2 = (0,0), object_pos2 = Window.center,
+                        object_size3 = (0,0), object_pos3 = Window.center,
+                        object_size4 = (0,0), object_pos4 = Window.center,
+                        duration = .1)
+        anim4 = Animation(size_hint=(0.25,0.1), elevation = 10,duration = .2)
+        anim3.start(self.animation_object)
+        anim4.start(self.searching_object)
 
 
 
+class Senderlogic():
 
+    def sending(self):
+        pass
 
 
 
@@ -384,6 +387,7 @@ if kivy.utils.platform != 'android':
 if platform == 'android':
     from android.permissions import request_permissions, Permission
     request_permissions([
+        Permission.ACCESS_FINE_LOCATION,
         Permission.WRITE_EXTERNAL_STORAGE,
         Permission.READ_EXTERNAL_STORAGE,
         Permission.INTERNET,

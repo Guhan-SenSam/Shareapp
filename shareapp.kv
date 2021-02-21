@@ -27,10 +27,15 @@
             text_color:0.1,0.3,0.3,1
 
 <SearchingAnimation>:
-    end_angle:0.0
-    start_angle:0.0
-    start_angle2:0.0
-    end_angle2:0.0
+    object_size1:(0,0)
+    object_size2:(0,0)
+    object_size3:(0,0)
+    object_size4:(0,0)
+    object_pos1:(0,0)
+    object_pos2:(0,0)
+    object_pos3:(0,0)
+    object_pos4:(0,0)
+
     canvas:
 
         Color:
@@ -39,25 +44,39 @@
         Ellipse:
             angle_start:0
             angle_end:360
-            pos:self.object_pos3
-            size:self.object_size3
+            pos:self.object_pos1
+            size:self.object_size1
 
         Color:
-            rgba:0.05,0.25,0.25,1
+            rgba:3/255,128/255,108/255, 1
 
         Ellipse:
-            angle_start: self.start_angle2
-            angle_end: self.end_angle2
+            angle_start:0
+            angle_end:360
             pos:self.object_pos2
             size:self.object_size2
 
         Color:
-            rgba: 0.1,0.3,0.3,1
+            rgba:3/255,108/255,88/255, 1
+
+
         Ellipse:
-            angle_start: self.start_angle
-            angle_end: self.end_angle
-            pos:self.object_pos1
-            size:self.object_size1
+            angle_start:0
+            angle_end:360
+            pos:self.object_pos3
+            size:self.object_size3
+
+        Color:
+            rgba:3/255,128/255,108/255, 1
+
+        Ellipse:
+            angle_start:0
+            angle_end:360
+            pos:self.object_pos4
+            size:self.object_size4
+
+
+
 
 
 
@@ -133,7 +152,7 @@
 <SearchingObject>:
     size_hint: 0.25, 0.1
     pos_hint:{'center_x':.5, "center_y":.5}
-    radius: 5,5,5,5
+    radius: 20,20,20,20
     md_bg_color:1,1,1,1
     elevation: 12
 
